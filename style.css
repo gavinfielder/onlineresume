@@ -1,0 +1,362 @@
+/* top right bottom left */
+
+/* ************************************
+ *               General              *
+ * ************************************/
+
+body {
+	font-family: helvetica;
+}
+
+.pizazz {
+	position: absolute;
+	max-width: 220px;
+	z-index: -2;
+	top: 0;
+	right: 0;
+}
+
+img.pizazz-img {
+	text-align: center;
+	width: 200px;
+}
+
+#quote {
+	font-size: 12px;
+	margin-right: 20px;
+}
+
+#quote1 {
+	display: block;
+}
+
+#quote2 {
+	display: block;
+	font-style: italic;
+	text-align: right;
+}
+
+h1.title {
+	text-align: center;
+	margin: 50px 0 0 0;
+}
+
+.subtitle {
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+	/*margin-bottom: 40px;*/
+}
+
+h2 {
+	margin: 15px 0 0 0;
+}
+
+.subheader {
+	font-size: 12px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.expandable-section {
+	position: relative;
+}
+
+/* ************************************
+ *           Upper Sections           *
+ * ************************************/
+
+#education {
+	width: 75%;
+}
+
+div.expandable-section-header {
+	display: inline-block;
+	font-size: 18px;
+	margin: 20px 15px 0 0;
+	font-weight: bold;
+}
+
+#projects-section-header {
+	margin: 30px 0 0 0;
+	font-size: 24px;
+}
+
+div.expandable-section-clicktoexpand {
+	display: inline-block;
+	font-size: 12px;
+	font-style: italic;
+}
+
+div.expandable-section-expandedtext {
+	display: none;
+	margin-left: 20px;
+}
+
+.contact-label {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.contact-data {
+	font-size: 14px;
+}
+
+.education-entry {
+	font-size: 14px;
+}
+
+span.ed-degree {
+	text-decoration: underline;
+}
+
+/* ************************************
+ *               Projects             *
+ * ************************************/
+
+#projects-container {
+	/*position: absolute;*/
+	left: 0;
+	min-width: 200px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	min-height: 550px;
+	margin-left: 20px;
+	background-color: white;
+}
+
+/*Sidebar is on side normally*/
+@media screen and (min-width: 855px) {
+	#projects-sidebar {
+		width: 200px;
+		float: right;
+		margin-top: 5px;
+	}
+	#sidebar-header {
+		display: block;
+	}
+	.tagsel {
+		margin-left: 30px;
+		display: block;
+	}
+	div.projects-container {
+		margin-right: 215px;
+	}
+}
+
+/*Sidebar is on top for low widths*/
+@media screen and (max-width: 855px) {
+	#sidebar-header {
+		display: inline-block;
+	}
+	#sidebar-header::after {
+		content: ": ";
+	}
+	.tagsel {
+		margin-left: 3px;
+		margin-right: 3px;
+		display: inline-block;
+	}
+	div.projects-container {
+		display: block;
+	}
+}
+
+#projects-sidebar {
+	/*border: 1px solid black;*/
+	background-color: white;
+}
+
+#sidebar-h1 {
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#sidebar-h2 {
+	font-size: 18px;
+	margin-top: 15px;
+	margin-left: 15px;
+	font-weight: bold;
+}
+
+
+
+.tagsel {
+	
+}
+
+.tagsel:hover {
+	text-shadow: 2px 2px 5px red;
+	cursor: pointer;
+}
+
+div.project {
+	display: block;
+	border: 1px black;
+	border-top-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	padding: 10px 0 20px 0;
+}
+
+div.project-title {
+	font-weight: bold;
+	display: inline-block;
+}
+div.project-name {
+	font-style: italic;
+	font-size: 20px;
+	margin: 0 10px 10px 20px;
+	float: right;
+}
+
+@media screen and (min-width: 500px) {
+	div.project-name {
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 500px) {
+	div.project-name {
+		display: none;
+	}
+}
+
+div.project-description {
+	font-size: 12px;
+	font-style: italic;
+	padding: 0 30px 5px 50px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+div.project-description.description-text {
+	display: none;
+}
+
+div.project-description.expand {
+	display: block;
+}
+
+div.description-text div.project-description {
+	display: none;
+}
+
+div.project-bottom-container {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: -20px;
+	/*position: absolute;
+	right: 0;*/
+	/*float: right;*/
+}
+
+div.project-date {
+	float: right;
+	/*position: relative;
+	display: inline-block;
+	right: 0;*/
+	font-size: 14px;
+	margin: 0 10px 0 10px;
+}
+
+div.project-url {
+	float: right;
+	/*position: absolute;
+	display: inline-block;
+	right: 0;*/
+	font-size: 14px;
+	margin: 0 10px 0 10px;
+}
+
+div.project-tags::before {
+	content: "tags: ";
+}
+
+div.project-tags {
+	display: none;
+	font-size: 12px;
+	font-style: italic;
+	color: #aaaaaa;
+	padding: 0 30px 0 50px;
+
+}
+
+div.hidden-width-expander {
+	visibility: hidden;
+	max-height: 5px;
+}
+
+
+/* ************************************
+ *         Job History Section        *
+ * ************************************/
+
+#job-history-subheader {
+	font-size: 14px;
+	font-style: italic;
+}
+
+.job-entry {
+	display: block;
+	margin: 5px 0 5px 20px;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid black;
+}
+
+.job-title {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.job-employer {
+	display: inline-block;
+	font-size: 14px;
+	margin-left:5px;
+	margin-right: 5px;
+}
+
+.job-employer-website {
+	display: inline-block;
+	font-size: 14px;
+	margin-left:5px;
+	margin-right: 5px;
+}
+
+.job-employer-website::before {
+	content: "(";
+}
+
+.job-employer-website::after {
+	content: ")";
+}
+
+.job-date {
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.job-description {
+	display: block;
+	font-size: 14px;
+	font-style: italic;
+	margin-left: 15px;
+}
+
+.job-reference::before {
+	content: "Associated Reference: ";
+}
+.job-reference {
+	display: block;
+	font-size: 14px;
+	font-style: italic;
+	margin-left: 30px;
+}
+
+
