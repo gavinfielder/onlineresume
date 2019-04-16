@@ -270,7 +270,7 @@
 		color: #5A6358;
 	}
 	div.project-title::before {
-		content: "❖ "
+		content: "\02756    "
 	}
 	div.project-name {
 		font-style: italic;
@@ -407,12 +407,12 @@
 
 	.job-entry {
 		display: block;
-		margin: 5px 0 5px 20px;
-		padding: 10px 0 10px 0;
+		margin: 5px 20px 5px 0;
+		padding: 10px 20px 10px 0;
 		border-top: 1px solid #C5D9E6;
 	}
 	.job-title::before {
-		content: "❖ "
+		content: "\02756  "
 	}
 	.job-title {
 		display: inline-block;
@@ -471,7 +471,7 @@
 	.job-entry-manual-hide {
 		position: absolute;
 		top: -10px;
-		right: 10px;
+		right: 0;
 		display: block;
 		color: #C5D9E6;
 	}
@@ -703,7 +703,7 @@
 		margin-left: -10px;
 	}
 	div.project-title::before {
-		content: "❖ "
+		content: "\02756  "
 	}
 	div.project-name {
 		font-style: italic;
@@ -808,12 +808,12 @@
 	
 	.job-entry {
 		display: block;
-		margin: 5px 0 5px 20px;
-		padding: 5px 0 0 0;
+		margin: 5px 20px 5px 0;
+		padding: 5px 20px 0 0;
 		border-top: 1px solid black;
 	}
 	.job-title::before {
-		content: "❖ "
+		content: "\02756  "
 	}
 	.job-title {
 		display: inline-block;
