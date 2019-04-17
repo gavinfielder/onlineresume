@@ -30,29 +30,42 @@
 			<div class="tagsel">Carpentry</div>
 			<div class="tagsel">Embedded Systems</div>
 			<div class="tagsel">Game Development</div>
+			<div class="tagsel">Graphics</div>
 			<div class="tagsel">Novels</div>
 			<div class="tagsel">Mathematics</div>
 			<div class="tagsel">Mobile</div>
 			<div class="tagsel">Programming</div>
 			<div class="tagsel">Software Testing</div>
+			<div class="tagsel">Stagecraft</div>
 			<div class="tagsel">Web</div>
 			<div class="sidebar-h2">Languages</div>
+			<div class="tagsel">ASP.NET</div>
 			<div class="tagsel">C90</div>
 			<div class="tagsel">C#</div>
 			<div class="tagsel">C++</div>
 			<div class="tagsel">CSS</div>
 			<div class="tagsel">Embedded C</div>
 			<div class="tagsel">HTML</div>
+			<div class="tagsel">Javascript</div>
+			<div class="tagsel">Mathematica</div>
 			<div class="tagsel">Matlab</div>
 			<div class="tagsel">PHP</div>
 			<div class="tagsel">Shell</div>
 			<div class="tagsel">SQL</div>
 			<div class="sidebar-h2">Other</div>
+			<div class="tagsel">.NET</div>
 			<div class="tagsel">42</div>
+			<div class="tagsel">Architecture</div>
+			<div class="tagsel">AWS</div>
+			<div class="tagsel">Educational</div>
+			<div class="tagsel">JQuery</div>
+			<div class="tagsel">SQL Server</div>
 			<div class="tagsel">Technical Writing</div>
 			<div class="tagsel">Unity</div>
 			<div class="tagsel">VR</div>
+			<div class="tagsel">WCF</div>
 			<div class="tagsel">Winforms</div>
+			<div class="tagsel">WPF</div>
 		</div>
 
 	</div>
@@ -111,9 +124,22 @@
 		<h1>Things I've Made</h1>
 		<div id="current-filter">All Projects, Include Educational</div>
 		<div id="projects-container" class="projects-container">
+
+			<div class="project">
+				<div class="project-title">This Website</div>
+				<div id="project-name" class="project-name">Portfolio and Online Resume</div>
+				<div id="expanded" class="project-description description-text">No frameworks were <strike>harmed</strike> used in the making of this website.It was built in vim only, using HTML, CSS, Javascript, and JQuery. CSS is responsive to height and width and has a separate print format. It is hosted on Amazon AWS S3. </div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Programming, Web, HTML, CSS, Javascript, JQuery, AWS</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url"><a href="https://github.com/gavinfielder/onlineresume">github.com/gavinfielder/onlineresume</a></div>
+					<div class="project-date">Apr 2019</div>
+				</div>
+			</div>
+	
 			<div class="project">
 				<div class="project-title">C Unit Testing Framework and Regression Tester</div>
-				<div id="project-name" class="project-name">GüT</div>
+				<div id="project-name" class="project-name">G&#252;T</div>
 				<div id="expanded" class="project-description description-text">A unit testing framework in C as well as a test utility that integrates into a project's existing makefile. It aims to make regression testing quick and easy by providing the fewest number of steps between editing and testing, and the easiest possible experience in adding new tests. It provides prefix-based, wildcard-based, and range-based searching for tests by name so that new code can be quickly and concisely tested with two shell commands (make, test).</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
 				<div id="project-tags" class="project-tags">Programming, C90, Software Testing</div>
@@ -126,7 +152,7 @@
 			<div class="project">
 				<div class="project-title">Framework Builder for New Projects</div>
 				<div id="project-name" class="project-name">gframework</div>
-				<div id="expanded" class="project-description description-text">A php script that sets up a new project framework. The script sets up repositories, creates a makefile if appropriate, adds external libraries, manages .gitignore, and starts the project as a hello world. For C projects, it also provides the option of including my GüT unit testing framework.</div>
+				<div id="expanded" class="project-description description-text">A php script that sets up a new project framework. The script sets up repositories, creates a makefile if appropriate, adds external libraries, manages .gitignore, and starts the project as a hello world. For C projects, it also provides the option of including my G&#252;T unit testing framework.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
 				<div id="project-tags" class="project-tags">Programming, PHP</div>
 				<div align="right" class="project-bottom-container">
@@ -157,6 +183,30 @@
 				<div id="project-tags" class="project-tags">Programming, C90, Software Testing, 42</div>
 				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/pft">github.com/gavinfielder/pft</a></div>
+					<div class="project-date">Mar 2019</div>
+				</div>
+			</div>
+			
+			<div class="project">
+				<div class="project-title">Recode of the libc printf</div>
+				<div id="project-name" class="project-name">ft_printf</div>
+				<div id="expanded" class="project-description description-text">One of the major early projects at 42, a recoding of the libc printf with at least the options %d, %i, %u, %s, %c, %p, %x, %X, %o, and at least the optional flags 0, ' ', +, -, #, hh, h, l, ll, L, precision, and field width. In mine I also included the arbitrary argument selector ($), unix terminal output formatting with colors and text decoration using keywords (eg %{green underline}), and added two additonal specifiers, %m and %b, to print a specified number of bytes of arbitrary memory space in hexadecimal or ascii (%m) or in binary (%b). I also implemented dprintf, sprintf, snprintf, asprintf, and added my own sbprintf (stringbuilder printf--this stringbuilder being part of my personal C library) as well as the variadic versions (v-) of each of these.</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Programming, C90, 42</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url">Included in <a href="https://github.com/gavinfielder/libft">github.com/gavinfielder/libft</a></div>
+					<div class="project-date">Mar 2019</div>
+				</div>
+			</div>
+
+			<div class="project">
+				<div class="project-title">Big Integers and Arbitrary Precision Floats Library</div>
+				<div id="project-name" class="project-name">ftbi</div>
+				<div id="expanded" class="project-description description-text">An implementation of big integers including all basic math operations including modulo and power. An implementation of arbitrary-precision floating point representation. Built for quick conversion to ascii rather than efficiency.</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Programming, C90, Mathematics, Educational</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url"><a href="https://github.com/gavinfielder/ftbi">github.com/gavinfielder/ftbi</a></div>
 					<div class="project-date">Mar 2019</div>
 				</div>
 			</div>
@@ -196,6 +246,18 @@
 					<div class="project-date">Feb 2019</div>
 				</div>
 			</div>
+
+			<div class="project">
+				<div class="project-title">Backend SQL and Middleware Development in WCF</div>
+				<div id="project-name" class="project-name">Simple Data Server</div>
+				<div id="expanded" class="project-description description-text">A web app that interfaces with a separately-deployed SQL server via WCF middleware service. A personal project for my own education that used MVC architecture across 3 separate deployments.</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Programming, C#, ASP.NET, SQL, SQL Server, AWS, WCF, .NET, Educational</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url"><a href="https://github.com/gavinfielder/Simple-Data-Server">github.com/gavinfielder/Simple-Data-Server</a></div>
+					<div class="project-date">Sept 2018</div>
+				</div>
+			</div>
 		
 			<div class="project">
 				<div class="project-title">Japanese Mahjong app for iOS/Android (WIP)</div>
@@ -214,7 +276,7 @@
 				<div id="project-name" class="project-name">CaseConverterMVVM</div>
 				<div id="expanded" class="project-description description-text">An educational exercise that implements MVVM pattern in a simple WPF application. This app lets the user input a string in pascal case, camel case, or any string of words separated by spaces. It then converts the string to the other two structures. I put this together both as a WPF/XAML refresher and to learn MVVM.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, Educational, C#, Winforms, WPF</div>
+				<div id="project-tags" class="project-tags">Programming, Educational, C#, Winforms, WPF, .NET</div>
 				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/CaseConverterMVVM">github.com/gavinfielder/CaseConverterMVVM</a></div>
 					<div class="project-date">July 2018</div>
@@ -226,7 +288,7 @@
 				<div id="project-name" class="project-name">TechTreeEditor</div>
 				<div id="expanded" class="project-description description-text">This is a windows forms tool that manages a set of tables in a database that represents a tech tree for a game.  It includes a basic interactive graphic visualization of the local neighborhood of the selected node. I created this for a particular game I've been working on for some time, and it is useful to store this game's tech tree as a database because the game is designed for a large and complex tech tree that could use a dbms's validation features to ensure integrity and consistency.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C#, Winforms, SQL, Game Development</div>
+				<div id="project-tags" class="project-tags">Programming, C#, Winforms, .NET, SQL, Game Development</div>
 				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/TechTreeEditor">github.com/gavinfielder/TechTreeEditor</a></div>
 					<div class="project-date">June 2018</div>
@@ -256,7 +318,7 @@
 					<div class="project-date">Jan-May 2018</div>
 				</div>
 			</div>
-		
+	
 			<div class="project">
 				<div class="project-title">Robotic Unmanned Bicycle</div>
 				<div id="project-name" class="project-name">The Unmanned Bicycle Project</div>
@@ -280,11 +342,33 @@
 					<div class="project-date">Feb 2018</div>
 				</div>
 			</div>
-		
+	
+			<div class="project">
+				<div class="project-title">N-Dimensional Differential Systems Numerical Analysis Library</div>
+				<div id="project-name" class="project-name">DLab-Math</div>
+				<div id="expanded" class="project-description description-text">The underlying math library for the DynamicsLab project; Can represent any ODE system up to 255 dimensions and numerically solve such systems using the Runge-Kutta method of order 4 at a specified time-step resolution. Includes dynamically expanding data structures to hold arbitrary-length solution data of any system dimensionality.</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Programming, C#, Mathematics</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url"><a href="https://github.com/gavinfielder/DynamicsLab-Math">github.com/gavinfielder/DynamicsLab-Math</a></div>
+					<div class="project-date">Jan 2018</div>
+				</div>
+			</div>
+			
 			<div class="project">
 				<div class="project-title">Saxophone Display Case</div>
 				<div id="project-name" class="project-name"></div>
-				<div id="expanded" class="project-description description-text">A redwood saxophone display case I made for my stepdad, complete with internal lighting and drawers for storing reeds.</div>
+				<div id="expanded" class="project-description description-text">A redwood saxophone display case I made for my stepdad, complete with internal lighting and drawers for storing reeds.
+					<div class="print-only gallery-print-note">Gallery images are shown on web version only; Go to  www.gavinfielder.com for more.</div>
+					<div class="expandable-section hide-when-print">
+						<div class="expandable-section-clicktoexpand-gallery" id="hidden-inline">Click to expand...</div>
+						<div class="expandable-section-expandedtext" id="expanded">
+							<div class="gallery-container">
+								<img class="gallery" src="https://i.imgur.com/UX7SBlW.jpg"><br>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
 				<div id="project-tags" class="project-tags">Carpentry</div>
 				<div align="right" class="project-bottom-container">
@@ -292,7 +376,31 @@
 					<div class="project-date">Jan 2018</div>
 				</div>
 			</div>
-		
+
+			<div class="project">
+				<div class="project-title">Red-Black Tree Implementation</div>
+				<div id="project-name" class="project-name">RBTree</div>
+				<div id="expanded" class="project-description description-text">An RB Tree implementation in C++ that I did while at CSU Chico.</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Programming, C++, Educational</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url"><a href="https://github.com/gavinfielder/CSCI311-RBTree">github.com/gavinfielder/CSCI311-RBTree</a></div>
+					<div class="project-date">Nov 2017</div>
+				</div>
+			</div>
+	
+			<div class="project">
+				<div class="project-title">Arbitrary Function Least Squares Computational Algorithm</div>
+				<div id="project-name" class="project-name">Generalized Least Squares</div>
+				<div id="expanded" class="project-description description-text">A Wolfram Mathematica notebook that can accept an arbitrary function prototype with an arbitrary number of parameters and an arbitrary number of fit points, and calculate the value of each parameter for the least squares best fit.</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Programming, Mathematica, Mathematics, Educational</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url"><a href="https://github.com/gavinfielder/Generalized-Least-Squares">github.com/gavinfielder/Generalized-Least-Squares</a></div>
+					<div class="project-date">May 2017</div>
+				</div>
+			</div>
+			
 			<div class="project">
 				<div class="project-title">Nonlinear Shooting Numerical Solver for 2nd order BVPs</div>
 				<div id="project-name" class="project-name">The Nonlinear Shooting Project</div>
@@ -316,7 +424,202 @@
 					<div class="project-date">2017</div>
 				</div>
 			</div>
+
+			<div class="project">
+				<div class="project-title">Custom Desk Nook</div>
+				<div id="project-name" class="project-name"></div>
+				<div id="expanded" class="project-description description-text">I made this desk/bookshelf/workspace for myself and used it for a few years.
+					<div class="print-only gallery-print-note">Gallery images are shown on web version only; Go to  www.gavinfielder.com for more.</div>
+					<div class="expandable-section hide-when-print">
+						<div class="expandable-section-clicktoexpand-gallery" id="hidden-inline">Click to expand...</div>
+						<div class="expandable-section-expandedtext" id="expanded">
+							<div class="gallery-container">
+								<img class="gallery" src="https://i.imgur.com/6ccsaYM.jpg"><br>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Carpentry</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-date">2013</div>
+				</div>
+			</div>
+	
+
+			<div class="project">
+				<div class="project-title">Recreational Graphics</div>
+				<div id="project-name" class="project-name"></div>
+				<div id="expanded" class="project-description description-text">I've done graphics, graphic design, editing, digital art, etc. over the years. These are some I did for fun:
+					<div class="print-only gallery-print-note">Gallery images are shown on web version only; Go to  www.gavinfielder.com for more.</div>
+					<div class="expandable-section hide-when-print">
+						<div class="expandable-section-clicktoexpand-gallery" id="hidden-inline">Click to expand...</div>
+						<div class="expandable-section-expandedtext" id="expanded">
+							<div class="gallery-container">
+								<img class="gallery" src="https://i.imgur.com/Ng083ps.png"><br>
+								<img class="gallery dark-background" src="https://i.imgur.com/YYjOnc8.png"><br>
+								<img class="gallery" src="https://i.imgur.com/lxjZPQB.png"><br>
+								<img class="gallery" src="https://i.imgur.com/AQWvpmh.png"><br>
+								<img class="gallery" src="https://i.imgur.com/cw8C4NX.png"><br>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Graphics</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url">Other Samples Available on Request</div>
+					<div class="project-date">2009 - 2018</div>
+				</div>
+			</div>
+	
+			<div class="project">
+				<div class="project-title">Typographical Graphics</div>
+				<div id="project-name" class="project-name"></div>
+				<div id="expanded" class="project-description description-text">I've done graphics, graphic design, editing, digital art, etc. over the years. Typography was a special interest of mine and I made several tutorials. These are various pieces of Typography I've done; some of them were actual projects and others were tutorial examples.
+					<div class="print-only gallery-print-note">Gallery images are shown on web version only; Go to  www.gavinfielder.com for more.</div>
+					<div class="expandable-section hide-when-print">
+						<div class="expandable-section-clicktoexpand-gallery" id="hidden-inline">Click to expand...</div>
+						<div class="expandable-section-expandedtext" id="expanded">
+							<div class="gallery-container">
+								<img class="gallery dark-background" src="https://i.imgur.com/TEAKiQl.png"><br>
+								<img class="gallery" src="https://i.imgur.com/pHmqy6B.jpg"><br>
+								<img class="gallery" src="https://i.imgur.com/kFuavS7.png"><br>
+								<img class="gallery dark-background" src="https://i.imgur.com/Px0g8k3.png"><br>
+								<img class="gallery" src="https://i.imgur.com/pMx68hX.png"><br>
+								<img class="gallery" src="https://i.imgur.com/LNW6Vwz.png"><br>
+								<img class="gallery" src="https://i.imgur.com/NZe7imz.png"><br>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Graphics</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url">Other Samples Available on Request</div>
+					<div class="project-date">2009 - 2018</div>
+				</div>
+			</div>
 		
+			<div class="project">
+				<div class="project-title">Promotional Graphics and Website Graphics</div>
+				<div id="project-name" class="project-name"></div>
+				<div id="expanded" class="project-description description-text">I've done graphics, graphic design, editing, digital art, etc. over the years. I occasionally did promotional graphics, often for a london-based group I've been involved with for many years.
+					<div class="print-only gallery-print-note">Gallery images are shown on web version only; Go to  www.gavinfielder.com for more.</div>
+					<div class="expandable-section hide-when-print">
+						<div class="expandable-section-clicktoexpand-gallery" id="hidden-inline">Click to expand...</div>
+						<div class="expandable-section-expandedtext" id="expanded">
+							<div class="gallery-container">
+								<img class="gallery" src="https://i.imgur.com/pduefwh.jpg"><br>
+								<img class="gallery" src="https://i.imgur.com/GY02xPh.gif"><br>
+								<img class="gallery" src="https://i.imgur.com/XKMyZvQ.png"><br>
+								<img class="gallery" src="https://i.imgur.com/2iVRRqV.jpg"><br>
+								<img class="gallery" src="https://i.imgur.com/8wIj6JM.png"><br>
+								<img class="gallery" src="https://i.imgur.com/k3FujAf.jpg"><br>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Graphics</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url">Other Samples Available on Request</div>
+					<div class="project-date">2010 - 2012</div>
+				</div>
+			</div>
+			
+			<div class="project">
+				<div class="project-title">Digital Art for a Juice Company in India</div>
+				<div id="project-name" class="project-name"></div>
+				<div id="expanded" class="project-description description-text">A friend's dad was starting a mall kiosk in India and asked me to make some fruit to use in their logo.
+					<div class="print-only gallery-print-note">Gallery images are shown on web version only; Go to  www.gavinfielder.com for more.</div>
+					<div class="expandable-section hide-when-print">
+						<div class="expandable-section-clicktoexpand-gallery" id="hidden-inline">Click to expand...</div>
+						<div class="expandable-section-expandedtext" id="expanded">
+							<div class="gallery-container">
+								<img class="gallery" src="https://i.imgur.com/5WtCW49.png"><br>
+								<img class="gallery" src="https://i.imgur.com/J6PioZt.png"><br>
+								<img class="gallery" src="https://i.imgur.com/EVoEJoC.png"><br>
+								<img class="gallery" src="https://i.imgur.com/qpe4sKU.png"><br>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Graphics</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url">Other Samples Available on Request</div>
+					<div class="project-date">2010</div>
+				</div>
+			</div>
+								
+			<div class="project">
+				<div class="project-title">Theatre Construction inside Historic Building</div>
+				<div id="project-name" class="project-name">L21 Theatre</div>
+				<div id="expanded" class="project-description description-text">I was helping a group build a new theatre space inside a historic building--the limitation with this being that we could not fix anything to existing supports. The video below shows progress on the proscenium arch, a 34 foot span.
+					<div class="print-only gallery-print-note">Youtube videos are shown on web version only; Go to  www.gavinfielder.com for more.</div>
+					<div class="expandable-section hide-when-print">
+						<div class="expandable-section-clicktoexpand-gallery" id="hidden-inline">Click to expand...</div>
+						<div class="expandable-section-expandedtext" id="expanded">
+							<div class="gallery-container">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/YQmLMfNLOqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Stagecraft, Carpentry</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url"><a href="https://www.facebook.com/gavin.fielder/media_set?set=a.1015904657067&type=3">See Pictures on Facebook</a></div>
+					<div class="project-date">Sep 2009</div>
+				</div>
+			</div>
+											
+			<div class="project">
+				<div class="project-title">Revolving Stage</div>
+				<div id="project-name" class="project-name">L21 Theatre</div>
+				<div id="expanded" class="project-description description-text">I was helping a group build a new theatre space inside a historic building--the limitation with this being that we could not fix anything to existing supports. One feature the group wanted was a revolving stage--the video below shows progress as this feature was under construction.
+					<div class="print-only gallery-print-note">Youtube videos are shown on web version only; Go to  www.gavinfielder.com for more.</div>
+					<div class="expandable-section hide-when-print">
+						<div class="expandable-section-clicktoexpand-gallery" id="hidden-inline">Click to expand...</div>
+						<div class="expandable-section-expandedtext" id="expanded">
+							<div class="gallery-container">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/7Fe3oAjNcFU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Stagecraft, Carpentry</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url"><a href="https://www.facebook.com/gavin.fielder/media_set?set=a.1015904657067&type=3">See Pictures on Facebook</a></div>
+					<div class="project-date">Aug 2009</div>
+				</div>
+			</div>
+	
+			<div class="project">
+				<div class="project-title">Set Design, Little Shop of Horrors</div>
+				<div id="project-name" class="project-name">Little Shop of Horrors</div>
+				<div id="expanded" class="project-description description-text">Set design and construction for Little Shop of Horrors, done for Cerro Coso College Theater. Also made reclining dentist's chair and onstage lighting systems, and did all set painting.
+					<div class="print-only gallery-print-note">Gallery images are shown on web version only; Go to  www.gavinfielder.com for more.</div>
+					<div class="expandable-section hide-when-print">
+						<div class="expandable-section-clicktoexpand-gallery" id="hidden-inline">Click to expand...</div>
+						<div class="expandable-section-expandedtext" id="expanded">
+							<div class="gallery-container">
+								<img class="gallery" src="https://i.imgur.com/UPEz0X8.jpg"><br>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Stagecraft, Carpentry</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url"><a href="https://www.facebook.com/gavin.fielder/media_set?set=a.1015904657067&type=3">See Pictures on Facebook</a></div>
+					<div class="project-date">Spring 2009</div>
+				</div>
+			</div>
+
 			<div class="project">
 				<div class="project-title">Software Help Database</div>
 				<div id="project-name" class="project-name">Common Display System</div>
@@ -329,6 +632,28 @@
 			</div>
 		
 			<div class="project">
+				<div class="project-title">Theatre Complex Design</div>
+				<div id="project-name" class="project-name">KPAC001</div>
+				<div id="expanded" class="project-description description-text">Drafted an architectural design and 3D model of my dream theatre for fun.
+					<div class="print-only gallery-print-note">Gallery images are shown on web version only; Go to  www.gavinfielder.com for more.</div>
+					<div class="expandable-section hide-when-print">
+						<div class="expandable-section-clicktoexpand-gallery" id="hidden-inline">Click to expand...</div>
+						<div class="expandable-section-expandedtext" id="expanded">
+							<div class="gallery-container">
+								<img class="gallery" src="https://i.imgur.com/MfNdxnz.jpg"><br>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Stagecraft, Architecture</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-url"><a href="https://www.facebook.com/gavin.fielder/media_set?set=a.1060829620163&type=3">See Pictures on Facebook</a></div>
+					<div class="project-date">2007</div>
+				</div>
+			</div>
+			
+			<div class="project">
 				<div class="project-title">Science Fiction Novel</div>
 				<div id="project-name" class="project-name">Chasing the Sun</div>
 				<div id="expanded" class="project-description description-text">I wrote a book in high school and self-published it in 2008. I took it off the market a few years later after rereading it and not being satisfied with the writing. There are 14 copies in existence. </div>
@@ -338,6 +663,17 @@
 					<div class="project-date">2006-2008</div>
 				</div>
 			</div>
+	
+			<div class="project">
+				<div class="project-title">Paintball Arena</div>
+				<div id="expanded" class="project-description description-text">Sometime in middle school I gathered some friends and led construction of a paintball arena. We made dugout cinder-block bunkers, trenches, bridges, and various other obstacles.</div>
+				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+				<div id="project-tags" class="project-tags">Other</div>
+				<div align="right" class="project-bottom-container">
+					<div class="project-date">2002 (?)</div>
+				</div>
+			</div>
+
 		</div> <!-- End Projects Container -->
 
 
