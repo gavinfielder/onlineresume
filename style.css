@@ -80,7 +80,7 @@
 	}
 	
 	
-	@media (max-width: 500px) {
+	@media (max-width: 575px) {
 		#sidebar {
 			display: none;
 		}
@@ -96,8 +96,8 @@
 	}
 	
 	#name-header {
-		font-size: 24px;
-		margin-top: 15px;
+		font-size: 30px;
+		margin-top: 18px;
 		font-weight: bold;
 		font-variant: small-caps;
 		margin-left: 10px;
@@ -106,15 +106,15 @@
 	
 	#name-subheader {
 		font-style: italic;
-		font-size: 12px;
-		margin-left: 10px;
-		margin-bottom: 30px;
+		font-size: 13px;
+		margin-left: 17px;
+		margin-bottom: 25px;
 		color: #5A6358;
 	}
 	.tagsel {
 		margin-left: 20px;
 	}
-	
+
 	.tagsel:hover {
 		text-shadow: 2px 2px 5px #C29282;
 		cursor: pointer;
@@ -123,6 +123,7 @@
 	.sidebar-h1 {
 		font-size: 20px;
 		margin-top: 10px;
+		margin-left: 5px;
 		color: #2B2B2B;
 	}
 	
@@ -133,9 +134,6 @@
 		color: #2B2B2B;
 	}
 	
-	
-	
-	
 	#educational-tagsel {
 		margin-left: 20px;
 	}
@@ -145,6 +143,59 @@
 		-webkit-appearance: none;
 		background-color: red;*/
 	}
+
+	@media (max-height: 470px)
+	{
+		.height-470-min {
+			display: none;
+		}
+	}
+	@media (max-height: 600px)
+	{
+		.packed-600 {
+			display: inline-block;
+			margin-left: 5px;
+		}
+		.packed-container-600 {
+			margin-left: 15px;
+		}
+	}
+	@media (max-height: 875px)
+	{
+		.height-875-min {
+			display: none;
+		}
+		.pizazz-extra-toppings {
+			margin-top: 15px;
+		}
+	}
+	@media (min-height: 875px)
+	{
+		.height-875-max {
+			display: none;
+		}
+	}
+
+	@media (max-height: 1000px)
+	{
+		.height-1000-min {
+			display: none;
+		}
+	}
+	@media (max-height: 1130px)
+	{
+		.height-1130-min {
+			display: none;
+		}
+		.packed-1130 {
+			display: inline-block;
+			margin-left: 5px;
+		}
+		.packed-container-1130 {
+			margin-left: 15px;
+		}
+	}
+
 	
 	/* ************************************
 	 *           Content General          *
@@ -168,7 +219,7 @@
 	#printed-header {
 		text-align: center;
 	}
-	@media (min-width: 500px)
+	@media (min-width: 575px)
 	{
 		#printed-header {
 			display: none;
@@ -179,13 +230,13 @@
 		margin-top: -15px;
 	}
 	
-	@media (min-width: 500px)
+	@media (min-width: 575px)
 	{
 		#content {
 			left: 200px;
 		}
 	}
-	@media (max-width: 500px)
+	@media (max-width: 575px)
 	{
 		#content {
 			left: 0;
@@ -200,12 +251,17 @@
 	
 	td {
 		font-size: 14px;
+		min-width: 180px;
 	}
-	
+
 	/* ************************************
 	 *           Contact Section          *
 	 * ************************************/
 	
+	#contact {
+		margin-left: 20px;
+	}
+
 	.contact-table {
 		font-size: 14px;
 	}
@@ -215,15 +271,16 @@
 	}
 	
 	.contact-data {
-	
+		
 	}
-	
+		
+
 	/* ************************************
 	 *          Education Section         *
 	 * ************************************/
 	
 	#education {
-	
+		margin-left: 20px;
 	}
 	
 	.education-table {
@@ -280,12 +337,12 @@
 		color: #5A6358;
 	}
 	
-	@media (min-width: 500px) {
+	@media (min-width: 575px) {
 		div.project-name {
 			display: inline-block;
 		}
 	}
-	@media (max-width: 500px) {
+	@media (max-width: 575px) {
 		div.project-name {
 			display: none;
 		}
@@ -638,6 +695,7 @@
 	
 	td {
 		font-size: 11px;
+		min-width: 140px;
 		padding: 0;
 	}
 	
@@ -681,7 +739,7 @@
 	 * ************************************/
 	
 	#contact {
-		margin-left: 0;
+		margin-left: 20px;
 	}
 	.contact-table {
 		font-size: 11px;
@@ -700,7 +758,7 @@
 	 * ************************************/
 	
 	#education {
-	
+		margin-left: 20px;
 	}
 	
 	.education-table {
