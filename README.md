@@ -1,6 +1,6 @@
-# Online Website and Portfolio
+# Online Resume and Portfolio
 
-This is my online website and portfolio, at [gavinfielder.com](http://gavinfielder.com).
+This is my online resume and portfolio website, at [gavinfielder.com](http://gavinfielder.com).
 
 I made this because I hate job hunting and everything associated with it. I hate customizing resumes and I especially hate customizing cover letters. I hope I never have to do another again.
 
