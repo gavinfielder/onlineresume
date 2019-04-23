@@ -6,7 +6,7 @@
 //   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
 //   Created: 2019/04/14 14:56:01 by gfielder          #+#    #+#             //
-//   Updated: 2019/04/22 20:20:11 by gfielder         ###   ########.fr       //
+//   Updated: 2019/04/22 23:58:47 by gfielder         ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
@@ -28,6 +28,8 @@ $(document).ready(function()
 		job_title = $(this).val();
 		$("span.jobtitle").html(job_title);
 	});
+
+	$(".project-manual-hide").click(OnParagraphHideClick);
 
 });
 
