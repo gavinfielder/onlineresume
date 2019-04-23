@@ -1,0 +1,82 @@
+/* ************************************
+ *       Cover Letter Specific        *
+ * ************************************/
+
+#coverletter-date {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h1.coverletter-h1 {
+	font-size: 20px;
+	margin-top: 0;
+}
+
+@media screen {
+	h2.cl-h2 {
+		font-size: 14px;
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+}
+
+@media print {
+	h2.cl-h2 {
+		font-size: 12px;
+		margin-left: 10px;
+		margin-top: 20px;
+		margin-bottom: 0;
+		font-weight: normal;
+	}
+}
+
+p.cl {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+li.cl {
+
+}
+
+#coverletter-re {
+	margin-bottom: 20px;
+}
+
+p#coverletter-salutation {
+	margin-bottom: 20px;
+}
+
+#coverletter-jobtitle {
+	display: inline-block;
+}
+
+#coverletter-company {
+	display: inline-block;
+}
+
+.coverletter-input {
+	display: block;
+	min-width: 400px;
+}
+
+.jobtitle {
+	display: inline-block;
+}
+
+.companyname {
+	display: inline-block;
+}
+
+#coverletter-end-1 {
+	margin-top: 40px;
+	margin-bottom: 5px;
+}
+
+#coverletter-end-2 {
+	margin-left: 20px;
+}
+
+@page {
+	margin: 0.8in;
+}

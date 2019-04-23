@@ -1,0 +1,90 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="coverletter.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="moment.min.js"></script>
+	<script src="coverletter.js"></script>
+	<title>Cover Letter</title>
+</head>
+<body class="coverletter">
+
+	<form class="hide-when-print">
+		<h1 class="coverletter-h1">Insert Custom Fields</h1>
+		<input class="coverletter-input" type="text" id="coverletter-company-input" placeholder="Company Name"></input>
+		<input class="coverletter-input" type="text" id="coverletter-jobtitle-input" placeholder="Job Title"></input>
+	</form>
+
+	<h1 class="coverletter-h1">Gavin Fielder</h1>
+	<div id="contact">
+		<table class="contact-table">
+			<tr><td><span class="contact-label">Current City</span></td>
+				<td><span class="contact-data">Fremont, CA</span></td></tr>
+			<tr><td><span class="contact-label">Other Locations</span></td>
+				<td><span class="contact-data">Hendersonville NC; Tacoma WA; Mount Vernon WA</span></td></tr>
+			<tr><td><span class="contact-label">Cell</span></td>
+				<td><span class="contact-data">(760) 608-2578</span></td></tr>
+			<tr><td><span class="contact-label">Email</span></td>
+				<td><span class="contact-data"><a href="mailto:rgavinfielder@gmail.com">rgavinfielder@gmail.com</a></span></td></tr>
+			<tr><td><span class="contact-label">GitHub</span></td>
+				<td><span class="contact-data"><a href="https://github.com/gavinfielder/">github.com/gavinfielder</a></span></td></tr>
+			<tr><td><span class="contact-label">LinkedIn</span></td>
+				<td><span class="contact-data"><a href="https://www.linkedin.com/in/gavinfielder/">linkedin.com/in/gavinfielder/</a></span></td></tr>
+		</table>
+	</div>
+
+	<div id="coverletter-date"></div>
+
+	<div id="coverletter-re">Re: <span class="jobtitle"></span>, <span class="companyname"></span></div>
+
+	<p class="cl" id="coverletter-salutation">To whom it may concern,</p>
+
+	<div class="coverletter-hideable">
+		<p class="cl" id="coverletter-intro">I am writing to express interest in the position of <span class="jobtitle"></span> at <span class="companyname"></span>. I am a recent graduate of California State University and currently pursuing additional computer science studies in a nontraditional tech program. My employment interests are either an internship or entry-level position related to software development or testing.</p>
+		<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+	</div>
+
+	<div class="coverletter-hideable">
+		<h2 class="cl-h2">About 42</h2>
+		<p class="cl">I study computer science in a nonprofit international school. The school is based in Paris and I study at its Silicon Valley campus. 42 is a nontraditional educational program with no classes or teachers that aims to foster programming and computer science skills through self-discovery and peer mentorship. It emphasizes academic rigor, personal responsibility, and self-sufficiency alongside community to prepare students for working in a software-related industry. You may read more about 42 at <a href="https://www.42.us.org">www.42.us.org</a></p>
+		<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+	</div>
+
+	<div class="coverletter-hideable">
+		<h2 class="cl-h2">My Background and Professional Interest</h2>
+		<p class="cl">As my online resume will illustrate, I am someone who has done many different things. I enjoy making things in general and am interested in software development only because it's my most developed skill that would allow me to make things as a career while retaining unlimited growth potential. Within software, I like building tools for people I work with, and I have a particular interest in software testing.</p>
+		<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+	</div>
+
+	<div class="coverletter-hideable">
+		<h2 class="cl-h2">My Work Preferences</h2>
+		<p class="cl">For short term positions, I have no preferences. For long term positions, I am especially interested in positions that would allow me to live near family. This includes in particular the Western Carolinas or surrounding areas, or Northwestern Washington.</p>
+		<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+	</div>
+
+	<div class="coverletter-hideable">
+		<h2 class="cl-h2">My Strengths and Weaknesss in Programming</h2>
+		<ul>
+			<li class="cl">I am skilled as a general coder--I have a wider-than-average experience with data structures and algorithms, and I am competent in software design patterns and principles as well as code and algorithm analysis. I also have some academic background in AI.</li>
+			<li class="cl">On web, I am competent with most aspects of backend and middleware development, including database programming. I use AWS for most of my web hosting needs. I am less competent on web frontends; my online portfolio is typical of my skills in this regard.</li>
+			<li class="cl">I am reasonably competent in embedded systems programming.</li>
+			<li class="cl">Having learned many programming languages over the years, I've developed the viewpoint that specific language skills are immaterial. You're free to ask me whether I've used any particular language, but unless your position is extremely short term, it probably doesn't matter.</li>
+		</ul>
+		<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+	</div>
+
+	<div class="coverletter-hideable">
+		<h2 class="cl-h2">How To Reach Me</h2>
+		<p class="cl">I prefer to be contacted by email at <a href="mailto:rgavinfielder@gmail.com">rgavinfielder@gmail.com</a>. For interviews in the San Francisco Bay area, I am usually available for interviews with one or two days notice. I am also usually available for video (skype/hangout) interviews with the same. For in-person interviews outside California, I may need up to 10 days notice to request vacation time.</p>
+		<div class="relative-fix"><div class="project-manual-hide">x</div></div>
+	</div>
+
+	<div id="coverletter-end">
+		<div id="coverletter-end-1">Thank you for the consideration,</div>
+		<div id="coverletter-end-2">Gavin Fielder</div>
+	</div>
+
+</body>
+
+</html>
+
