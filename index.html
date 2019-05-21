@@ -20,60 +20,61 @@
 
 		<div id="filter-panel">
 			<div class="sidebar-h1">Filter By</div>
-			<div id="tagsel-all" class="tagsel">All Projects</div>
-			<div class="tagsel">No Projects</div>
+			<div id="tagsel-all" class="tagsel-vertical">All Projects</div>
+			<div class="tagsel-vertical">No Projects</div>
 			<div id="educational-tagsel">
 				Include Educational
 				<input id="educational-tagsel-checkbox" type="checkbox" checked>
 			</div>
 			<div class="sidebar-h2">Project Types</div>
-			<div class="tagsel">Carpentry</div>
-			<div class="tagsel">Embedded Systems</div>
-			<div class="tagsel">Game Development</div>
-			<div class="tagsel">Graphics</div>
-			<div class="tagsel">Novels</div>
-			<div class="tagsel">Mathematics</div>
-			<div class="tagsel">Mobile</div>
-			<div class="tagsel">Programming</div>
-			<div class="tagsel">Software Testing</div>
-			<div class="tagsel">Stagecraft</div>
-			<div class="tagsel">Web</div>
-			<div class="height-470-min">
-				<div class="sidebar-h2">Languages</div>
-				<div class="packed-container-600">
-					<div class="tagsel packed-600">C90</div>
-					<div class="tagsel packed-600">C#</div>
-					<div class="tagsel packed-600">C++</div>
-					<div class="tagsel packed-600">CSS</div>
-					<div class="tagsel packed-600">Embedded C</div>
-					<div class="tagsel packed-600">HTML</div>
-					<div class="tagsel packed-600">Javascript</div>
-					<div class="tagsel packed-600">Mathematica</div>
-					<div class="tagsel packed-600">Matlab</div>
-					<div class="tagsel packed-600">PHP</div>
-					<div class="tagsel packed-600">Shell</div>
-					<div class="tagsel packed-600">SQL</div>
-				</div>
+			<div class="tagsel-container">
+				<div class="tagsel">Carpentry</div>
+				<div class="tagsel">Embedded Systems</div>
+				<div class="tagsel">Game Development</div>
+				<div class="tagsel">Graphics</div>
+				<div class="tagsel">Novels</div>
+				<div class="tagsel">Mathematics</div>
+				<div class="tagsel">Mobile</div>
+				<div class="tagsel">Networking</div>
+				<div class="tagsel">Programming</div>
+				<div class="tagsel">Security</div>
+				<div class="tagsel">Software Testing</div>
+				<div class="tagsel">Stagecraft</div>
+				<div class="tagsel">Web</div>
 			</div>
-			<div class="height-1000-min">
-				<div class="sidebar-h2">Other</div>
-				<div class="packed-container-1130">
-					<div class="tagsel packed-1130">.NET</div>
-					<div class="tagsel packed-1130">42</div>
-					<div class="tagsel packed-1130">Architecture</div>
-					<div class="tagsel packed-1130">ASP.NET</div>
-					<div class="tagsel packed-1130">AWS</div>
-					<div class="tagsel packed-1130">Educational</div>
-					<div class="tagsel packed-1130">JQuery</div>
-					<div class="tagsel packed-1130">SQL Server</div>
-					<div class="tagsel packed-1130">System Administration</div>
-					<div class="tagsel packed-1130">Technical Writing</div>
-					<div class="tagsel packed-1130">Unity</div>
-					<div class="tagsel packed-1130">VR</div>
-					<div class="tagsel packed-1130">WCF</div>
-					<div class="tagsel packed-1130">Winforms</div>
-					<div class="tagsel packed-1130">WPF</div>
-				</div>
+			<div class="sidebar-h2">Languages</div>
+			<div class="tagsel-container">
+				<div class="tagsel">C90</div>
+				<div class="tagsel">C#</div>
+				<div class="tagsel">C++</div>
+				<div class="tagsel">CSS</div>
+				<div class="tagsel">Embedded C</div>
+				<div class="tagsel">HTML</div>
+				<div class="tagsel">Javascript</div>
+				<div class="tagsel">Mathematica</div>
+				<div class="tagsel">Matlab</div>
+				<div class="tagsel">PHP</div>
+				<div class="tagsel">Shell</div>
+				<div class="tagsel">SQL</div>
+			</div>
+			<div class="sidebar-h2">Other</div>
+			<div class="tagsel-container">
+				<div class="tagsel">.NET</div>
+				<div class="tagsel">42</div>
+				<div class="tagsel">Architecture</div>
+				<div class="tagsel">ASP.NET</div>
+				<div class="tagsel">AWS</div>
+				<div class="tagsel">Docker</div>
+				<div class="tagsel">Educational</div>
+				<div class="tagsel">JQuery</div>
+				<div class="tagsel">SQL Server</div>
+				<div class="tagsel">System Administration</div>
+				<div class="tagsel">Technical Writing</div>
+				<div class="tagsel">Unity</div>
+				<div class="tagsel">VR</div>
+				<div class="tagsel">WCF</div>
+				<div class="tagsel">Winforms</div>
+				<div class="tagsel">WPF</div>
 			</div>
 		</div>
 		<!--
@@ -147,7 +148,7 @@
 				<div id="project-name" class="project-name">gitserver</div>
 				<div id="expanded" class="project-description description-text">A secure production git server with various security features, data backup, and a web interface.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, PHP, Web, HTML, CSS, HTTPS, Educational, System Administration, Networking, Security</div>
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">PHP</span>, <span class="proj-tagsel">Web</span>, <span class="proj-tagsel">Security</span>, <span class="proj-tagsel">Networking</span>, <span class="proj-tagsel">Apache</span>, <span class="proj-tagsel">SQL</span>, <span class="proj-tagsel">HTML</span>, <span class="proj-tagsel">CSS</span>, <span class="proj-tagsel">System Administration</span></div>
 				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/roger-skyline-1">github.com/gavinfielder/roger-skyline-1</a></div>
 					<div class="project-date">May 2019</div>
@@ -159,7 +160,7 @@
 				<div id="project-name" class="project-name">simple-git-server</div>
 				<div id="expanded" class="project-description description-text">A simple git server for hosting remote repositories, tested in an alpine linux VM. This is a project I'll be expanding to a more featured deployable git service.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, Shell, Educational, System Administration</div>
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">Shell</span>, <span class="proj-tagsel">Educational</span>, <span class="proj-tagsel">System Administration</span></div>
 				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/simple-git-server">github.com/gavinfielder/simple-git-server</a></div>
 					<div class="project-date">May 2019</div>
@@ -171,7 +172,7 @@
 				<div id="project-name" class="project-name">docker-1</div>
 				<div id="expanded" class="project-description description-text">A set of exercises in the 42 curriculum in using docker for deploying applications and services.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, docker, Educational, 42</div>
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">Docker</span>, <span class="proj-tagsel">Educational</span>, <span class="proj-tagsel">42</span></div>
 				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/42-docker-1">github.com/gavinfielder/42-docker-1</a></div>
 					<div class="project-date">May 2019</div>
@@ -183,7 +184,7 @@
 				<div id="project-name" class="project-name">ft_ls</div>
 				<div id="expanded" class="project-description description-text">A recode of the unix shell ls command. Mine typically runs ~50% faster than the system ls. I also added a feature to limit recursion depth when used with the -R flag.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C90, 42</div>
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C90</span>, <span class="proj-tagsel">42</span></div>
 				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/ft_ls">github.com/gavinfielder/ft_ls</a></div>
 					<div class="project-date">Apr 2019</div>
@@ -195,8 +196,7 @@
 				<div id="project-name" class="project-name">Portfolio and Online Resume</div>
 				<div id="expanded" class="project-description description-text">No frameworks were <strike>harmed</strike> used in the making of this website.It was built in vim only, using HTML, CSS, Javascript, and JQuery. CSS is responsive to height and width and has a separate print format. It is hosted on Amazon AWS S3. </div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, Web, HTML, CSS, Javascript, JQuery, AWS</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">Web</span>, <span class="proj-tagsel">HTML</span>, <span class="proj-tagsel">CSS</span>, <span class="proj-tagsel">Javascript</span>, <span class="proj-tagsel">JQuery</span>, <span class="proj-tagsel">AWS</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/onlineresume">github.com/gavinfielder/onlineresume</a></div>
 					<div class="project-date">Apr 2019</div>
 				</div>
@@ -207,8 +207,7 @@
 				<div id="project-name" class="project-name">G&#252;T</div>
 				<div id="expanded" class="project-description description-text">A unit testing framework in C as well as a test utility that integrates into a project's existing makefile. It aims to make regression testing quick and easy by providing the fewest number of steps between editing and testing, and the easiest possible experience in adding new tests. It provides prefix-based, wildcard-based, and range-based searching for tests by name so that new code can be quickly and concisely tested with two shell commands (make, test).</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C90, Software Testing</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C90</span>, <span class="proj-tagsel">Software Testing</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/gut">github.com/gavinfielder/gut</a></div>
 					<div class="project-date">Apr 2019</div>
 				</div>
@@ -219,8 +218,7 @@
 				<div id="project-name" class="project-name">gframework</div>
 				<div id="expanded" class="project-description description-text">A php script that sets up a new project framework. The script sets up repositories, creates a makefile if appropriate, adds external libraries, manages .gitignore, and starts the project as a hello world. For C projects, it also provides the option of including my G&#252;T unit testing framework.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, PHP</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">PHP</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/gframework">github.com/gavinfielder/gframework</a></div>
 					<div class="project-date">Apr 2019</div>
 				</div>
@@ -232,8 +230,7 @@
 				<div id="project-name" class="project-name">42 Book Exchange</div>
 				<div id="expanded" class="project-description description-text">An ecommerce site where users buy and sell their used books.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, PHP, HTML, CSS, 42, Web</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">PHP</span>, <span class="proj-tagsel">HTML</span>, <span class="proj-tagsel">CSS</span>, <span class="proj-tagsel">42</span>, <span class="proj-tagsel">Web</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/42BookExchange">github.com/gavinfielder/42BookExchange</a></div>
 					<div class="project-date">Mar 2019</div>
 				</div>
@@ -245,8 +242,7 @@
 				<div id="project-name" class="project-name">PFT</div>
 				<div id="expanded" class="project-description description-text">One of the early projects and a major barrier for many at 42 Silicon Valley is one which asks cadets to recode the libc printf, which is, for most, a daunting task in terms of size and complexity in the number of options they must simultaneously handle. I wrote a unit test library and regression tester for 42 cadets specific to this project. It contains, at present, 2409 unit tests, and is designed to be used in development, so that different pieces of the project can be tested individually. Like my more general C unit testing framework, it provides prefix-based, wildcard-based, and range-based searching for tests by name. Despite recent release, it is already becoming a popular tool for the project.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C90, Software Testing, 42</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C90</span>, <span class="proj-tagsel">Software Testing</span>, <span class="proj-tagsel">42</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/pft">github.com/gavinfielder/pft</a></div>
 					<div class="project-date">Mar 2019</div>
 				</div>
@@ -257,8 +253,7 @@
 				<div id="project-name" class="project-name">ft_printf</div>
 				<div id="expanded" class="project-description description-text">One of the major early projects at 42, a recoding of the libc printf with at least the options %d, %i, %u, %s, %c, %p, %x, %X, %o, and at least the optional flags 0, ' ', +, -, #, hh, h, l, ll, L, precision, and field width. In mine I also included the arbitrary argument selector ($), unix terminal output formatting with colors and text decoration using keywords (eg %{green underline}), and added two additonal specifiers, %m and %b, to print a specified number of bytes of arbitrary memory space in hexadecimal or ascii (%m) or in binary (%b). I also implemented dprintf, sprintf, snprintf, asprintf, and added my own sbprintf (stringbuilder printf--this stringbuilder being part of my personal C library) as well as the variadic versions (v-) of each of these.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C90, 42</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C90</span>, <span class="proj-tagsel">42</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url">Included in <a href="https://github.com/gavinfielder/libft">github.com/gavinfielder/libft</a></div>
 					<div class="project-date">Mar 2019</div>
 				</div>
@@ -269,8 +264,7 @@
 				<div id="project-name" class="project-name">ftbi</div>
 				<div id="expanded" class="project-description description-text">An implementation of big integers including all basic math operations including modulo and power. An implementation of arbitrary-precision floating point representation. Built for quick conversion to ascii rather than efficiency.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C90, Mathematics, Educational</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C90</span>, <span class="proj-tagsel">Mathematics</span>, <span class="proj-tagsel">Educational</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/ftbi">github.com/gavinfielder/ftbi</a></div>
 					<div class="project-date">Mar 2019</div>
 				</div>
@@ -281,8 +275,7 @@
 				<div id="project-name" class="project-name">DGram Chat</div>
 				<div id="expanded" class="project-description description-text">I wrote a chat server (and terminal-based client) that uses anonymous, connectionless sockets. Users can change their username and their message display style, which is propogated to all connected users.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C90, 42, Web</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C90</span>, <span class="proj-tagsel">42</span>, <span class="proj-tagsel">Web</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/dgram_chat">github.com/gavinfielder/dgram_chat</a></div>
 					<div class="project-date">Mar 2019</div>
 				</div>
@@ -293,8 +286,7 @@
 				<div id="project-name" class="project-name">GNLRollingBencher</div>
 				<div id="expanded" class="project-description description-text">This is a tester for one of 42's early projects get_next_line. The project itself is to write a generalized readline function. The tester generates randomized input files of varying size, line length, content, and other characteristics, and compares an invocation of a validated function against the user's own function. Randomized testing is useful for this project because the project tends to involve hard-to-find edge cases that are implementation-dependent.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C90, Shell, 42, Software Testing</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C90</span>, <span class="proj-tagsel">Shell</span>, <span class="proj-tagsel">42</span>, <span class="proj-tagsel">Software Testing</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/GNLRollingBencher">github.com/gavinfielder/GNLRollingBencher</a></div>
 					<div class="project-date">Feb 2019</div>
 				</div>
@@ -305,8 +297,7 @@
 				<div id="project-name" class="project-name">Fillit Randomized Bench Testing</div>
 				<div id="expanded" class="project-description description-text">This is a tester for one of 42's early projects fillit. The project itself is an algorithmic tetris solver. The tester makes use of a python script (not mine) that generates random valid input, and compares program output between a cadet's own fillit and various other validated fillit projects. Also included is a timing bencher that compares execution time between a cadet's own fillit and various other validated fillit projects.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C90, Shell, 42, Software Testing</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C90</span>, <span class="proj-tagsel">Shell</span>, <span class="proj-tagsel">42</span>, <span class="proj-tagsel">Software Testing</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/fillit-testing">github.com/gavinfielder/fillit-testing</a></div>
 					<div class="project-date">Feb 2019</div>
 				</div>
@@ -317,8 +308,7 @@
 				<div id="project-name" class="project-name">Simple Data Server</div>
 				<div id="expanded" class="project-description description-text">A web app that interfaces with a separately-deployed SQL server via WCF middleware service. A personal project for my own education that used MVC architecture across 3 separate deployments.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C#, ASP.NET, SQL, SQL Server, AWS, WCF, .NET, Educational</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C#</span>, <span class="proj-tagsel">ASP.NET</span>, <span class="proj-tagsel">SQL</span>, <span class="proj-tagsel">SQL Server</span>, <span class="proj-tagsel">AWS</span>, <span class="proj-tagsel">WCF</span>, <span class="proj-tagsel">.NET</span>, <span class="proj-tagsel">Educational</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/Simple-Data-Server">github.com/gavinfielder/Simple-Data-Server</a></div>
 					<div class="project-date">Sept 2018</div>
 				</div>
@@ -329,8 +319,7 @@
 				<div id="project-name" class="project-name">Momogariya Mahjong</div>
 				<div id="expanded" class="project-description description-text">Mahjong is a 4-player tile game. I implement the Japanese variant of this game. I began this project in my spare time last year; the underlying code base is largely done and I was working on the algorithms the AI will depend on. I plan to go back to this project in the future when I have more time.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C#, Unity, Mobile, Game Development</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C#</span>, <span class="proj-tagsel">Unity</span>, <span class="proj-tagsel">Mobile</span>, <span class="proj-tagsel">Game Development</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/Momogariya-Mahjong">github.com/gavinfielder/Momogariya-Mahjong</a></div>
 					<div class="project-date">Sept 2018</div>
 				</div>
@@ -341,8 +330,7 @@
 				<div id="project-name" class="project-name">CaseConverterMVVM</div>
 				<div id="expanded" class="project-description description-text">An educational exercise that implements MVVM pattern in a simple WPF application. This app lets the user input a string in pascal case, camel case, or any string of words separated by spaces. It then converts the string to the other two structures. I put this together both as a WPF/XAML refresher and to learn MVVM.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, Educational, C#, Winforms, WPF, .NET</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">Educational</span>, <span class="proj-tagsel">C#</span>, <span class="proj-tagsel">Winforms</span>, <span class="proj-tagsel">WPF</span>, <span class="proj-tagsel">.NET</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/CaseConverterMVVM">github.com/gavinfielder/CaseConverterMVVM</a></div>
 					<div class="project-date">July 2018</div>
 				</div>
@@ -353,8 +341,7 @@
 				<div id="project-name" class="project-name">TechTreeEditor</div>
 				<div id="expanded" class="project-description description-text">This is a windows forms tool that manages a set of tables in a database that represents a tech tree for a game.  It includes a basic interactive graphic visualization of the local neighborhood of the selected node. I created this for a particular game I've been working on for some time, and it is useful to store this game's tech tree as a database because the game is designed for a large and complex tech tree that could use a dbms's validation features to ensure integrity and consistency.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C#, Winforms, .NET, SQL, Game Development</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C#</span>, <span class="proj-tagsel">Winforms</span>, <span class="proj-tagsel">.NET</span>, <span class="proj-tagsel">SQL</span>, <span class="proj-tagsel">Game Development</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/TechTreeEditor">github.com/gavinfielder/TechTreeEditor</a></div>
 					<div class="project-date">June 2018</div>
 				</div>
@@ -365,8 +352,7 @@
 				<div id="project-name" class="project-name">FridgeFreezerMonitor</div>
 				<div id="expanded" class="project-description description-text">A monitoring system for a refrigerator or a freezer that sounds an alarm when either the temperature rises above a specified threshold or the door is left open. This project was created as a final project for Digital Systems Design at CSU Chico.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, Embedded C, Embedded Systems</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">Embedded C</span>, <span class="proj-tagsel">Embedded Systems</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/FridgeFreezerMonitor">github.com/gavinfielder/FridgeFreezerMonitor</a></div>
 					<div class="project-date">May 2018</div>
 				</div>
@@ -377,8 +363,7 @@
 				<div id="project-name" class="project-name">DynamicsLab</div>
 				<div id="expanded" class="project-description description-text">A dynamical systems numerical solver and VR simulator that accepts user-defined systems of differential equations and renders or animates their behavior. VR Capable, tested on the HTC Vive. Supports nonlinear, nonhomogenous, and non-autonomous systems and includes support for user-defined parameters. Includes visualization of 3D vector fields that update in real time, and youtube-like playback of a mathematical simulation. Built as an educational tool for students of differential equations or dynamical systems. Supported by CSU Chico Computer Science and Business departments and in consultation with CSU Chico Mathematics department. </div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C#, Unity, VR, Mathematics</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C#</span>, <span class="proj-tagsel">Unity</span>, <span class="proj-tagsel">VR</span>, <span class="proj-tagsel">Mathematics</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/DynamicsLab">github.com/gavinfielder/DynamicsLab</a></div>
 					<div class="project-date">Jan-May 2018</div>
 				</div>
@@ -389,8 +374,7 @@
 				<div id="project-name" class="project-name">The Unmanned Bicycle Project</div>
 				<div id="expanded" class="project-description description-text">I was part of an R&amp;D team creating an unmanned bicycle with the goal of getting an electric bicycle to follow a preprogrammed course. My major contributions were sensor filtering and data transfer protocols for downloading test data. The sensor filtering I accomplished with a kalman filter using a derivative-projection predictive model. I also developed automated optimization scripts that adjust the values of the process noise matrix to achieve optimal filter results. This was a special research project with CSU Chico Electrical Engineering department, led by Dr. Choi &#60;schoi13@csuchico.edu&#x3e;.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, Embedded C, Matlab, Embedded Systems, Mathematics</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">Embedded C</span>, <span class="proj-tagsel">Matlab</span>, <span class="proj-tagsel">Embedded Systems</span>, <span class="proj-tagsel">Mathematics</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/KalmanFilter-C-WithOptimization">github.com/gavinfielder/KalmanFilter-C-WithOptimization</a></div>
 					<div class="project-date">2017-2018</div>
 				</div>
@@ -401,8 +385,7 @@
 				<div id="project-name" class="project-name">Traffic Light Controller</div>
 				<div id="expanded" class="project-description description-text">A simple embedded traffic light controller that outputs traffic signals based on sensor input, built as a finite state machine.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, Embedded C, Embedded Systems</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">Embedded C</span>, <span class="proj-tagsel">Embedded Systems</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/Traffic-Light-Controller">github.com/gavinfielder/Traffic-Light-Controller</a></div>
 					<div class="project-date">Feb 2018</div>
 				</div>
@@ -413,8 +396,7 @@
 				<div id="project-name" class="project-name">DLab-Math</div>
 				<div id="expanded" class="project-description description-text">The underlying math library for the DynamicsLab project; Can represent any ODE system up to 255 dimensions and numerically solve such systems using the Runge-Kutta method of order 4 at a specified time-step resolution. Includes dynamically expanding data structures to hold arbitrary-length solution data of any system dimensionality.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C#, Mathematics</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C#</span>, <span class="proj-tagsel">Mathematics</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/DynamicsLab-Math">github.com/gavinfielder/DynamicsLab-Math</a></div>
 					<div class="project-date">Jan 2018</div>
 				</div>
@@ -435,8 +417,7 @@
 					</div>
 				</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Carpentry</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Carpentry</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://www.facebook.com/media/set/?set=ms.c.eJxV0EEOA0AIAsAfNWiB1f9~%3BrNlLw14nCsZCY2rnVKnpcz71FzRpKkWm9U3x0HLKgNaGVDXtSMas6Yoc7O1q5BZJH~_XMlX5l6HYKQBezC6QWjwy19QioyZtxc76v3G~%3BgB8Y9PX0~-.bps.a.10208198707924587&type=1">See Pictures on Facebook</a></div>
 					<div class="project-date">Jan 2018</div>
 				</div>
@@ -447,8 +428,7 @@
 				<div id="project-name" class="project-name">RBTree</div>
 				<div id="expanded" class="project-description description-text">An RB Tree implementation in C++ that I did while at CSU Chico.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C++, Educational</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C++</span>, <span class="proj-tagsel">Educational</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/CSCI311-RBTree">github.com/gavinfielder/CSCI311-RBTree</a></div>
 					<div class="project-date">Nov 2017</div>
 				</div>
@@ -459,8 +439,7 @@
 				<div id="project-name" class="project-name">Generalized Least Squares</div>
 				<div id="expanded" class="project-description description-text">A Wolfram Mathematica notebook that can accept an arbitrary function prototype with an arbitrary number of parameters and an arbitrary number of fit points, and calculate the value of each parameter for the least squares best fit.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, Mathematica, Mathematics, Educational</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">Mathematica</span>, <span class="proj-tagsel">Mathematics</span>, <span class="proj-tagsel">Educational</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/Generalized-Least-Squares">github.com/gavinfielder/Generalized-Least-Squares</a></div>
 					<div class="project-date">May 2017</div>
 				</div>
@@ -471,8 +450,7 @@
 				<div id="project-name" class="project-name">The Nonlinear Shooting Project</div>
 				<div id="expanded" class="project-description description-text">A console application that defines a 2nd order boundary value problem and then numerically solves it using the nonlinear shooting method. Provides options for internal algorithms used as well as logging iteration data.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Programming, C++, Mathematics</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Programming</span>, <span class="proj-tagsel">C++</span>, <span class="proj-tagsel">Mathematics</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/Nonlinear-Shooting">github.com/gavinfielder/Nonlinear-Shooting</a></div>
 					<div class="project-date">Apr 2017</div>
 				</div>
@@ -483,8 +461,7 @@
 				<div id="project-name" class="project-name">Hammer Engine</div>
 				<div id="expanded" class="project-description description-text">A couple years ago I had done some work on an RTS engine. It implements event-driven architecture that can handle scheduled events, timing mechanisms, nesting location structures, and some work on weapons. Since I've learned a great deal since I worked on this last, I would rather start over than go back and finish it, but it was educational at the time.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Game Development, C++</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Game Development</span>, <span class="proj-tagsel">C++</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://github.com/gavinfielder/Hammer-Engine-Work">github.com/gavinfielder/Hammer-Engine-Work</a></div>
 					<div class="project-date">2017</div>
 				</div>
@@ -505,8 +482,7 @@
 					</div>
 				</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Carpentry</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Carpentry</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-date">2015</div>
 				</div>
 			</div>
@@ -526,8 +502,7 @@
 					</div>
 				</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Carpentry</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Carpentry</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-date">2013</div>
 				</div>
 			</div>
@@ -552,8 +527,7 @@
 					</div>
 				</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Graphics</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Graphics</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url">Other Samples Available on Request</div>
 					<div class="project-date">2009 - 2018</div>
 				</div>
@@ -581,8 +555,7 @@
 					</div>
 				</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Graphics</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Graphics</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url">Other Samples Available on Request</div>
 					<div class="project-date">2009 - 2018</div>
 				</div>
@@ -608,8 +581,7 @@
 					</div>
 				</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Graphics</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Graphics</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url">Other Samples Available on Request</div>
 					<div class="project-date">2010 - 2012</div>
 				</div>
@@ -633,8 +605,7 @@
 					</div>
 				</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Graphics</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Graphics</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url">Other Samples Available on Request</div>
 					<div class="project-date">2010</div>
 				</div>
@@ -655,8 +626,7 @@
 					</div>
 				</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Stagecraft, Carpentry</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Stagecraft</span>, <span class="proj-tagsel">Carpentry</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://www.facebook.com/gavin.fielder/media_set?set=a.1015904657067&type=3">See Pictures on Facebook</a></div>
 					<div class="project-date">Sep 2009</div>
 				</div>
@@ -677,8 +647,7 @@
 					</div>
 				</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Stagecraft, Carpentry</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Stagecraft</span>, <span class="proj-tagsel">Carpentry</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://www.facebook.com/gavin.fielder/media_set?set=a.1015904657067&type=3">See Pictures on Facebook</a></div>
 					<div class="project-date">Aug 2009</div>
 				</div>
@@ -699,8 +668,7 @@
 					</div>
 				</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Stagecraft, Carpentry</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Stagecraft</span>, <span class="proj-tagsel">Carpentry</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://www.facebook.com/gavin.fielder/media_set?set=a.1015904657067&type=3">See Pictures on Facebook</a></div>
 					<div class="project-date">Spring 2009</div>
 				</div>
@@ -711,8 +679,7 @@
 				<div id="project-name" class="project-name">Common Display System</div>
 				<div id="expanded" class="project-description description-text">Software help files for Common Display System, a new data processing software for weapon testing applications at China Lake Naval Air Weapons Station. </div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Technical Writing</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Technical Writing</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-date">2007-2008</div>
 				</div>
 			</div>
@@ -732,8 +699,7 @@
 					</div>
 				</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Stagecraft, Architecture</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Stagecraft</span>, <span class="proj-tagsel">Architecture</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-url"><a href="https://www.facebook.com/gavin.fielder/media_set?set=a.1060829620163&type=3">See Pictures on Facebook</a></div>
 					<div class="project-date">2007</div>
 				</div>
@@ -744,8 +710,7 @@
 				<div id="project-name" class="project-name">Chasing the Sun</div>
 				<div id="expanded" class="project-description description-text">I wrote a book in high school and self-published it in 2008. I took it off the market a few years later after rereading it and not being satisfied with the writing. There are 14 copies in existence. </div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Novels</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Novels</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-date">2006-2008</div>
 				</div>
 			</div>
@@ -754,8 +719,7 @@
 				<div class="project-title">Paintball Arena</div>
 				<div id="expanded" class="project-description description-text">Sometime in middle school I gathered some friends and led construction of a paintball arena. We made dugout cinder-block bunkers, trenches, bridges, and various other obstacles.</div>
 				<div class="relative-fix"><div class="project-manual-hide">x</div></div>
-				<div id="project-tags" class="project-tags">Other</div>
-				<div align="right" class="project-bottom-container">
+				<div id="project-tags" class="project-tags"><span class="proj-tagsel">Other</span></div>				<div align="right" class="project-bottom-container">
 					<div class="project-date">2002 (?)</div>
 				</div>
 			</div>

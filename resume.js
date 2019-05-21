@@ -5,8 +5,20 @@
 //                                                    +:+ +:+         +:+     //
 //   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
+//   Created: 2019/05/20 20:52:31 by gfielder          #+#    #+#             //
+//   Updated: 2019/05/20 20:52:36 by gfielder         ###   ########.fr       //
+//                                                                            //
+// ************************************************************************** //
+
+// ************************************************************************** //
+//                                                                            //
+//                                                        :::      ::::::::   //
+//   resume.js                                          :+:      :+:    :+:   //
+//                                                    +:+ +:+         +:+     //
+//   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        //
+//                                                +#+#+#+#+#+   +#+           //
 //   Created: 2019/04/14 14:56:01 by gfielder          #+#    #+#             //
-//   Updated: 2019/04/16 15:45:45 by gfielder         ###   ########.fr       //
+//   Updated: 2019/05/20 20:51:24 by gfielder         ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
@@ -34,6 +46,8 @@ $(document).ready(function()
 	$('.expandable-section-clicktoexpand').click(ExpandableClick);
 	$('.expandable-section-clicktoexpand-gallery').click(ExpandableClick);
 	$('.tagsel').not('#tagsel-all').click(OnTagSelect);
+	$('.tagsel-vertical').not('#tagsel-all').click(OnTagSelect);
+	$('.proj-tagsel').not('#tagsel-all').click(OnTagSelect);
 	$('#tagsel-all').click(ShowAllProjects);
 	$('.project-manual-hide').click(OnProjectHideClick);
 	$('.job-entry-manual-hide').click(OnJobEntryHideClick);
