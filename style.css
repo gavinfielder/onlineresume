@@ -20,7 +20,15 @@
 		font-size 18px;
 		color: #5A6358;
 	}
-	
+		
+	h3 {
+		font-size 14px;
+		color: #5A6358;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		margin-left: 10px;
+	}
+
 	a:link {
 		color: #5A6358;
 	}
@@ -300,6 +308,22 @@
 		text-decoration: underline;
 		white-space: nowrap;
 		margin-right: 10px;
+	}
+		
+	/* ************************************
+	 *        Variable Introduction       *
+	 * ************************************/
+
+	/* Default State */
+	.variable-intro-null { display: block; }
+	.variable-intro-dev  { display: none;  }
+	.variable-intro-qa   { display: none;  }
+	.variable-intro-db   { display: none;  }
+	.variable-intro-it   { display: none;  }
+
+	p.variable-intro-p {
+		margin-top: 5px;
+		margin-left: 20px;
 	}
 	
 	/* ************************************
@@ -629,7 +653,15 @@
 		margin-bottom: 0;
 		margin-top: 10px;
 	}
-	
+		
+	h3 {
+		font-size 12px;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		margin-left: 10px;
+	}
+
+
 	a:link {
 		color: blue;
 	}
@@ -785,6 +817,31 @@
 		white-space: nowrap;
 		margin-right: 10px;
 	}
+
+	
+	/* ************************************
+	 *       Variable Introduction        *
+	 * ************************************/
+	/* Default State */
+	.variable-intro-null { display: none; }
+	.variable-intro-dev  { display: none;  }
+	.variable-intro-qa   { display: none;  }
+	.variable-intro-db   { display: none;  }
+	.variable-intro-it   { display: none;  }
+
+
+	#variable-intro-selector {
+		display: none;
+	}
+
+	p.variable-intro-p {
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 5px;
+		margin-left: 
+	}
+	
+
 	
 	/* ************************************
 	 *          Projects Section          *

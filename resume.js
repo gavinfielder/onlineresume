@@ -5,20 +5,8 @@
 //                                                    +:+ +:+         +:+     //
 //   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
-//   Created: 2019/05/20 20:52:31 by gfielder          #+#    #+#             //
-//   Updated: 2019/05/20 20:52:36 by gfielder         ###   ########.fr       //
-//                                                                            //
-// ************************************************************************** //
-
-// ************************************************************************** //
-//                                                                            //
-//                                                        :::      ::::::::   //
-//   resume.js                                          :+:      :+:    :+:   //
-//                                                    +:+ +:+         +:+     //
-//   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        //
-//                                                +#+#+#+#+#+   +#+           //
 //   Created: 2019/04/14 14:56:01 by gfielder          #+#    #+#             //
-//   Updated: 2019/05/20 20:51:24 by gfielder         ###   ########.fr       //
+//   Updated: 2019/05/29 18:52:43 by gfielder         ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
@@ -51,6 +39,7 @@ $(document).ready(function()
 	$('#tagsel-all').click(ShowAllProjects);
 	$('.project-manual-hide').click(OnProjectHideClick);
 	$('.job-entry-manual-hide').click(OnJobEntryHideClick);
+	$('#variable-intro-selector').change(OnVariableIntroSelect);
 	//Open the Projects Section by default.
 	var proj = $('#projects-section');
 	proj.children("#hidden-inline").html("Click to collapse...");
@@ -156,6 +145,23 @@ function OnJobEntryHideClick(eventObject)
 	job = $(eventObject.target.parentElement.parentElement);
 	job.css('display', 'none');
 	$('#job-filter-text').css('display', 'block');
+}
+
+function HideAllVariableIntros()
+{
+	$('.variable-intro-null').css('display', 'none');
+	$('.variable-intro-dev').css('display', 'none');
+	$('.variable-intro-qa').css('display', 'none');
+	$('.variable-intro-db').css('display', 'none');
+	$('.variable-intro-it').css('display', 'none');
+}
+
+function OnVariableIntroSelect(eventObject)
+{
+	var value = eventObject.target.value;
+	HideAllVariableIntros();
+	var cls = ".variable-intro-" + value;
+	$(cls).css('display', 'block');
 }
 
 
