@@ -320,6 +320,7 @@
 	.variable-intro-qa   { display: none;  }
 	.variable-intro-db   { display: none;  }
 	.variable-intro-it   { display: none;  }
+	.variable-intro-anal { display: none;  }
 
 	p.variable-intro-p {
 		margin-top: 5px;
@@ -828,6 +829,7 @@
 	.variable-intro-qa   { display: none;  }
 	.variable-intro-db   { display: none;  }
 	.variable-intro-it   { display: none;  }
+	.variable-intro-anal { display: none;  }
 
 
 	#variable-intro-selector {
