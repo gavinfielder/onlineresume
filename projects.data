@@ -1,0 +1,306 @@
+[TITLE]             gitserver
+[SHORT DESC]        Production Git Server
+[DESCRIPTION]       A secure production git server with various security features, data backup, and a web interface.
+[TAGS]              Programming, PHP, Web, Security, Networking, Apache, SQL, HTML, CSS, System Administration
+[LINK]              <a href="https://github.com/gavinfielder/roger-skyline-1">github.com/gavinfielder/roger-skyline-1</a>
+[DATE]              May 2019
+
+[TITLE]             simple-git-server
+[SHORT DESC]        Simple Git Server
+[DESCRIPTION]       A simple git server for hosting remote repositories, tested in an alpine linux VM. This is a project I'll be expanding to a more featured deployable git service.
+[TAGS]              Programming, Shell, Educational, System Administration
+[LINK]              <a href="https://github.com/gavinfielder/simple-git-server">github.com/gavinfielder/simple-git-server</a>
+[DATE]              May 2019
+
+[TITLE]             docker-1
+[SHORT DESC]        Docker Exercises
+[DESCRIPTION]       A set of exercises in the 42 curriculum in using docker for deploying applications and services.
+[TAGS]              Programming, Docker, Educational, 42
+[LINK]              <a href="https://github.com/gavinfielder/42-docker-1">github.com/gavinfielder/42-docker-1</a>
+[DATE]              May 2019
+
+[TITLE]             minishell
+[SHORT DESC]        Custom Unix Shell
+[DESCRIPTION]       A simple interactive shell. Beyond the mandatory requirements, I added a source builtin for script processing and the ability to execute variable commands.
+[TAGS]              Programming, C90, 42, Educational
+[LINK]              <a href="https://github.com/gavinfielder/minishell">github.com/gavinfielder/minishell</a>
+[DATE]              May 2019
+
+[TITLE]             ft_ls
+[SHORT DESC]        Recode of UNIX ls
+[DESCRIPTION]       A recode of the unix shell ls command. Mine typically runs ~50% faster than the system ls. I also added a feature to limit recursion depth when used with the -R flag.
+[TAGS]              Programming, C90, 42
+[LINK]              <a href="https://github.com/gavinfielder/ft_ls">github.com/gavinfielder/ft_ls</a>
+[DATE]              Apr 2019
+
+[TITLE]             Portfolio and Online Resume
+[SHORT DESC]        This Website
+[DESCRIPTION]       No frameworks were <strike>harmed</strike> used in the making of this website.It was built in vim only, using HTML, CSS, Javascript, and JQuery. CSS is responsive to height and width and has a separate print format. It is hosted on Amazon AWS S3. 
+[TAGS]              Programming, Web, HTML, CSS, Javascript, JQuery, AWS
+[LINK]              <a href="https://github.com/gavinfielder/onlineresume">github.com/gavinfielder/onlineresume</a>
+[DATE]              Apr 2019
+
+[TITLE]             G&#252;T
+[SHORT DESC]        C Unit Testing Framework and Regression Tester
+[DESCRIPTION]       A unit testing framework in C as well as a test utility that integrates into a project's existing makefile. It aims to make regression testing quick and easy by providing the fewest number of steps between editing and testing, and the easiest possible experience in adding new tests. It provides prefix-based, wildcard-based, and range-based searching for tests by name so that new code can be quickly and concisely tested with two shell commands (make, test).
+[TAGS]              Programming, C90, Software Testing
+[LINK]              <a href="https://github.com/gavinfielder/gut">github.com/gavinfielder/gut</a>
+[DATE]              Apr 2019
+
+[TITLE]             gframework
+[SHORT DESC]        Framework Builder for New Projects
+[DESCRIPTION]       A php script that sets up a new project framework. The script sets up repositories, creates a makefile if appropriate, adds external libraries, manages .gitignore, and starts the project as a hello world. For C projects, it also provides the option of including my G&#252;T unit testing framework.
+[TAGS]              Programming, PHP
+[LINK]              <a href="https://github.com/gavinfielder/gframework">github.com/gavinfielder/gframework</a>
+[DATE]              Apr 2019
+
+[TITLE]             42 Book Exchange
+[SHORT DESC]        eCommerce Book Trading Site
+[DESCRIPTION]       An ecommerce site where users buy and sell their used books.
+[TAGS]              Programming, PHP, HTML, CSS, 42, Web
+[LINK]              <a href="https://github.com/gavinfielder/42BookExchange">github.com/gavinfielder/42BookExchange</a>
+[DATE]              Mar 2019
+
+[TITLE]             PFT
+[SHORT DESC]        Unit Test Library for 42 ft_printf
+[DESCRIPTION]       One of the early projects and a major barrier for many at 42 Silicon Valley is one which asks cadets to recode the libc printf, which is, for most, a daunting task in terms of size and complexity in the number of options they must simultaneously handle. I wrote a unit test library and regression tester for 42 cadets specific to this project. It contains, at present, 2409 unit tests, and is designed to be used in development, so that different pieces of the project can be tested individually. Like my more general C unit testing framework, it provides prefix-based, wildcard-based, and range-based searching for tests by name. Despite recent release, it is already becoming a popular tool for the project.
+[TAGS]              Programming, C90, Software Testing, 42
+[LINK]              <a href="https://github.com/gavinfielder/pft">github.com/gavinfielder/pft</a>
+[DATE]              Mar 2019
+
+[TITLE]             ft_printf
+[SHORT DESC]        Recode of the libc printf
+[DESCRIPTION]       One of the major early projects at 42, a recoding of the libc printf with at least the options %d, %i, %u, %s, %c, %p, %x, %X, %o, and at least the optional flags 0, ' ', +, -, #, hh, h, l, ll, L, precision, and field width. In mine I also included the arbitrary argument selector ($), unix terminal output formatting with colors and text decoration using keywords (eg %{green underline}), and added two additonal specifiers, %m and %b, to print a specified number of bytes of arbitrary memory space in hexadecimal or ascii (%m) or in binary (%b). I also implemented dprintf, sprintf, snprintf, asprintf, and added my own sbprintf (stringbuilder printf--this stringbuilder being part of my personal C library) as well as the variadic versions (v-) of each of these.
+[TAGS]              Programming, C90, 42
+[LINK]              Included in <a href="https://github.com/gavinfielder/libft">github.com/gavinfielder/libft</a>
+[DATE]              Mar 2019
+
+[TITLE]             ftbi
+[SHORT DESC]        Big Integers and Arbitrary Precision Floats Library
+[DESCRIPTION]       An implementation of big integers including all basic math operations including modulo and power. An implementation of arbitrary-precision floating point representation. Built for quick conversion to ascii rather than efficiency.
+[TAGS]              Programming, C90, Mathematics, Educational
+[LINK]              <a href="https://github.com/gavinfielder/ftbi">github.com/gavinfielder/ftbi</a>
+[DATE]              Mar 2019
+
+[TITLE]             DGram Chat
+[SHORT DESC]        Anonymous Chat Server
+[DESCRIPTION]       I wrote a chat server (and terminal-based client) that uses anonymous, connectionless sockets. Users can change their username and their message display style, which is propogated to all connected users.
+[TAGS]              Programming, C90, 42, Web
+[LINK]              <a href="https://github.com/gavinfielder/dgram_chat">github.com/gavinfielder/dgram_chat</a>
+[DATE]              Mar 2019
+
+[TITLE]             GNLRollingBencher
+[SHORT DESC]        Randomized Bench Tester for 42 get_next_line
+[DESCRIPTION]       This is a tester for one of 42's early projects get_next_line. The project itself is to write a generalized readline function. The tester generates randomized input files of varying size, line length, content, and other characteristics, and compares an invocation of a validated function against the user's own function. Randomized testing is useful for this project because the project tends to involve hard-to-find edge cases that are implementation-dependent.
+[TAGS]              Programming, C90, Shell, 42, Software Testing
+[LINK]              <a href="https://github.com/gavinfielder/GNLRollingBencher">github.com/gavinfielder/GNLRollingBencher</a>
+[DATE]              Feb 2019
+
+[TITLE]             Fillit Randomized Bench Testing
+[SHORT DESC]        Randomized Bench Tester for 42 fillit
+[DESCRIPTION]       This is a tester for one of 42's early projects fillit. The project itself is an algorithmic tetris solver. The tester makes use of a python script (not mine) that generates random valid input, and compares program output between a cadet's own fillit and various other validated fillit projects. Also included is a timing bencher that compares execution time between a cadet's own fillit and various other validated fillit projects.
+[TAGS]              Programming, C90, Shell, 42, Software Testing
+[LINK]              <a href="https://github.com/gavinfielder/fillit-testing">github.com/gavinfielder/fillit-testing</a>
+[DATE]              Feb 2019
+
+[TITLE]             Simple Data Server
+[SHORT DESC]        Backend SQL and Middleware Development in WCF
+[DESCRIPTION]       A web app that interfaces with a separately-deployed SQL server via WCF middleware service. A personal project for my own education that used MVC architecture across 3 separate deployments.
+[TAGS]              Programming, C#, ASP.NET, SQL, SQL Server, AWS, WCF, .NET, Educational
+[LINK]              <a href="https://github.com/gavinfielder/Simple-Data-Server">github.com/gavinfielder/Simple-Data-Server</a>
+[DATE]              Sept 2018
+
+[TITLE]             Momogariya Mahjong
+[SHORT DESC]        Japanese Mahjong app for iOS/Android (WIP)
+[DESCRIPTION]       Mahjong is a 4-player tile game. I implement the Japanese variant of this game. I began this project in my spare time last year; the underlying code base is largely done and I was working on the algorithms the AI will depend on. I plan to go back to this project in the future when I have more time.
+[TAGS]              Programming, C#, Unity, Mobile, Game Development
+[LINK]              <a href="https://github.com/gavinfielder/Momogariya-Mahjong">github.com/gavinfielder/Momogariya-Mahjong</a>
+[DATE]              Sept 2018
+
+[TITLE]             CaseConverterMVVM
+[SHORT DESC]        MVVM Architecture Implementation in WPF
+[DESCRIPTION]       An educational exercise that implements MVVM pattern in a simple WPF application. This app lets the user input a string in pascal case, camel case, or any string of words separated by spaces. It then converts the string to the other two structures. I put this together both as a WPF/XAML refresher and to learn MVVM.
+[TAGS]              Programming, Educational, C#, Winforms, WPF, .NET
+[LINK]              <a href="https://github.com/gavinfielder/CaseConverterMVVM">github.com/gavinfielder/CaseConverterMVVM</a>
+[DATE]              July 2018
+
+[TITLE]             TechTreeEditor
+[SHORT DESC]        SQL-Based Tech Tree Editor for Game Development
+[DESCRIPTION]       This is a windows forms tool that manages a set of tables in a database that represents a tech tree for a game.  It includes a basic interactive graphic visualization of the local neighborhood of the selected node. I created this for a particular game I've been working on for some time, and it is useful to store this game's tech tree as a database because the game is designed for a large and complex tech tree that could use a dbms's validation features to ensure integrity and consistency.
+[TAGS]              Programming, C#, Winforms, .NET, SQL, Game Development
+[LINK]              <a href="https://github.com/gavinfielder/TechTreeEditor">github.com/gavinfielder/TechTreeEditor</a>
+[DATE]              June 2018
+
+[TITLE]             FridgeFreezerMonitor
+[SHORT DESC]        Fridge/Freezer Monitoring System
+[DESCRIPTION]       A monitoring system for a refrigerator or a freezer that sounds an alarm when either the temperature rises above a specified threshold or the door is left open. This project was created as a final project for Digital Systems Design at CSU Chico.
+[TAGS]              Programming, Embedded C, Embedded Systems
+[LINK]              <a href="https://github.com/gavinfielder/FridgeFreezerMonitor">github.com/gavinfielder/FridgeFreezerMonitor</a>
+[DATE]              May 2018
+
+[TITLE]             DynamicsLab
+[SHORT DESC]        Dynamical Systems VR Simulator
+[DESCRIPTION]       A dynamical systems numerical solver and VR simulator that accepts user-defined systems of differential equations and renders or animates their behavior. VR Capable, tested on the HTC Vive. Supports nonlinear, nonhomogenous, and non-autonomous systems and includes support for user-defined parameters. Includes visualization of 3D vector fields that update in real time, and youtube-like playback of a mathematical simulation. Built as an educational tool for students of differential equations or dynamical systems. Supported by CSU Chico Computer Science and Business departments and in consultation with CSU Chico Mathematics department. 
+[TAGS]              Programming, C#, Unity, VR, Mathematics
+[LINK]              <a href="https://github.com/gavinfielder/DynamicsLab">github.com/gavinfielder/DynamicsLab</a>
+[DATE]              Jan-May 2018
+
+[TITLE]             The Unmanned Bicycle Project
+[SHORT DESC]        Robotic Unmanned Bicycle
+[DESCRIPTION]       I was part of an R&amp;D team creating an unmanned bicycle with the goal of getting an electric bicycle to follow a preprogrammed course. My major contributions were sensor filtering and data transfer protocols for downloading test data. The sensor filtering I accomplished with a kalman filter using a derivative-projection predictive model. I also developed automated optimization scripts that adjust the values of the process noise matrix to achieve optimal filter results. This was a special research project with CSU Chico Electrical Engineering department, led by Dr. Choi &#60;schoi13@csuchico.edu&#x3e;.
+[TAGS]              Programming, Embedded C, Matlab, Embedded Systems, Mathematics
+[LINK]              <a href="https://github.com/gavinfielder/KalmanFilter-C-WithOptimization">github.com/gavinfielder/KalmanFilter-C-WithOptimization</a>
+[DATE]              2017-2018
+
+[TITLE]             Traffic Light Controller
+[SHORT DESC]        Traffic Light Controller
+[DESCRIPTION]       A simple embedded traffic light controller that outputs traffic signals based on sensor input, built as a finite state machine.
+[TAGS]              Programming, Embedded C, Embedded Systems
+[LINK]              <a href="https://github.com/gavinfielder/Traffic-Light-Controller">github.com/gavinfielder/Traffic-Light-Controller</a>
+[DATE]              Feb 2018
+
+[TITLE]             DLab-Math
+[SHORT DESC]        N-Dimensional Differential Systems Numerical Analysis Library
+[DESCRIPTION]       The underlying math library for the DynamicsLab project; Can represent any ODE system up to 255 dimensions and numerically solve such systems using the Runge-Kutta method of order 4 at a specified time-step resolution. Includes dynamically expanding data structures to hold arbitrary-length solution data of any system dimensionality.
+[TAGS]              Programming, C#, Mathematics
+[LINK]              <a href="https://github.com/gavinfielder/DynamicsLab-Math">github.com/gavinfielder/DynamicsLab-Math</a>
+[DATE]              Jan 2018
+
+[TITLE]             
+[SHORT DESC]        Saxophone Display Case
+[DESCRIPTION]       A redwood saxophone display case I made for my stepdad, complete with internal lighting and drawers for storing reeds.
+[GALLERY]           https://i.imgur.com/UX7SBlW.jpg
+[TAGS]              Carpentry
+[LINK]              <a href="https://www.facebook.com/media/set/?set=ms.c.eJxV0EEOA0AIAsAfNWiB1f9~%3BrNlLw14nCsZCY2rnVKnpcz71FzRpKkWm9U3x0HLKgNaGVDXtSMas6Yoc7O1q5BZJH~_XMlX5l6HYKQBezC6QWjwy19QioyZtxc76v3G~%3BgB8Y9PX0~-.bps.a.10208198707924587&type=1">See Pictures on Facebook</a>
+[DATE]              Jan 2018
+
+[TITLE]             RBTree
+[SHORT DESC]        Red-Black Tree Implementation
+[DESCRIPTION]       An RB Tree implementation in C++ that I did while at CSU Chico.
+[TAGS]              Programming, C++, Educational
+[LINK]              <a href="https://github.com/gavinfielder/CSCI311-RBTree">github.com/gavinfielder/CSCI311-RBTree</a>
+[DATE]              Nov 2017
+
+[TITLE]             Generalized Least Squares
+[SHORT DESC]        Arbitrary Function Least Squares Computational Algorithm
+[DESCRIPTION]       A Wolfram Mathematica notebook that can accept an arbitrary function prototype with an arbitrary number of parameters and an arbitrary number of fit points, and calculate the value of each parameter for the least squares best fit.
+[TAGS]              Programming, Mathematica, Mathematics, Educational
+[LINK]              <a href="https://github.com/gavinfielder/Generalized-Least-Squares">github.com/gavinfielder/Generalized-Least-Squares</a>
+[DATE]              May 2017
+
+[TITLE]             The Nonlinear Shooting Project
+[SHORT DESC]        Nonlinear Shooting Numerical Solver for 2nd order BVPs
+[DESCRIPTION]       A console application that defines a 2nd order boundary value problem and then numerically solves it using the nonlinear shooting method. Provides options for internal algorithms used as well as logging iteration data.
+[TAGS]              Programming, C++, Mathematics
+[LINK]              <a href="https://github.com/gavinfielder/Nonlinear-Shooting">github.com/gavinfielder/Nonlinear-Shooting</a>
+[DATE]              Apr 2017
+
+[TITLE]             Hammer Engine
+[SHORT DESC]        RTS Game Engine
+[DESCRIPTION]       A couple years ago I had done some work on an RTS engine. It implements event-driven architecture that can handle scheduled events, timing mechanisms, nesting location structures, and some work on weapons. Since I've learned a great deal since I worked on this last, I would rather start over than go back and finish it, but it was educational at the time.
+[TAGS]              Game Development, C++
+[LINK]              <a href="https://github.com/gavinfielder/Hammer-Engine-Work">github.com/gavinfielder/Hammer-Engine-Work</a>
+[DATE]              2017
+
+[TITLE]             
+[SHORT DESC]        Mahjong Table
+[DESCRIPTION]       Mahjong tables are game tables with a recessed play area. I made a mahjong table in oak and pine with tilt-out drawers.
+[TAGS]              Carpentry
+[DATE]              2015
+
+[TITLE]             
+[SHORT DESC]        Custom Desk Nook
+[DESCRIPTION]       I made this desk/bookshelf/workspace for myself and used it for a few years.
+[GALLERY]           https://i.imgur.com/6ccsaYM.jpg
+[TAGS]              Carpentry
+[DATE]              2013
+
+[TITLE]             
+[SHORT DESC]        Recreational Graphics
+[DESCRIPTION]       I've done graphics, graphic design, editing, digital art, etc. over the years. These are some I did for fun:
+[GALLERY]           https://i.imgur.com/Ng083ps.png
+[GALLERY]           https://i.imgur.com/lxjZPQB.png
+[GALLERY]           https://i.imgur.com/AQWvpmh.png
+[GALLERY]           https://i.imgur.com/cw8C4NX.png
+[TAGS]              Graphics
+[LINK]              Other Samples Available on Request
+[DATE]              2009 - 2018
+
+[TITLE]             
+[SHORT DESC]        Typographical Graphics
+[DESCRIPTION]       I've done graphics, graphic design, editing, digital art, etc. over the years. Typography was a special interest of mine and I made several tutorials. These are various pieces of Typography I've done; some of them were actual projects and others were tutorial examples.
+[GALLERY]           https://i.imgur.com/pHmqy6B.jpg
+[GALLERY]           https://i.imgur.com/kFuavS7.png
+[GALLERY]           https://i.imgur.com/pMx68hX.png
+[GALLERY]           https://i.imgur.com/LNW6Vwz.png
+[GALLERY]           https://i.imgur.com/NZe7imz.png
+[TAGS]              Graphics
+[LINK]              Other Samples Available on Request
+[DATE]              2009 - 2018
+
+[TITLE]             
+[SHORT DESC]        Promotional Graphics and Website Graphics
+[DESCRIPTION]       I've done graphics, graphic design, editing, digital art, etc. over the years. I occasionally did promotional graphics, often for a london-based group I've been involved with for many years.
+[GALLERY]           https://i.imgur.com/pduefwh.jpg
+[GALLERY]           https://i.imgur.com/GY02xPh.gif
+[GALLERY]           https://i.imgur.com/XKMyZvQ.png
+[GALLERY]           https://i.imgur.com/2iVRRqV.jpg
+[GALLERY]           https://i.imgur.com/8wIj6JM.png
+[GALLERY]           https://i.imgur.com/k3FujAf.jpg
+[TAGS]              Graphics
+[LINK]              Other Samples Available on Request
+[DATE]              2010 - 2012
+
+[TITLE]             
+[SHORT DESC]        Digital Art for a Juice Company in India
+[DESCRIPTION]       A friend's dad was starting a mall kiosk in India and asked me to make some fruit to use in their logo.
+[GALLERY]           https://i.imgur.com/5WtCW49.png
+[GALLERY]           https://i.imgur.com/J6PioZt.png
+[GALLERY]           https://i.imgur.com/EVoEJoC.png
+[GALLERY]           https://i.imgur.com/qpe4sKU.png
+[TAGS]              Graphics
+[LINK]              Other Samples Available on Request
+[DATE]              2010
+
+[TITLE]             L21 Theatre
+[SHORT DESC]        Theatre Construction inside Historic Building
+[DESCRIPTION]       I was helping a group build a new theatre space inside a historic building--the limitation with this being that we could not fix anything to existing supports. The video below shows progress on the proscenium arch, a 34 foot span.
+[TAGS]              Stagecraft, Carpentry
+[LINK]              <a href="https://www.facebook.com/gavin.fielder/media_set?set=a.1015904657067&type=3">See Pictures on Facebook</a>
+[DATE]              Sep 2009
+
+[TITLE]             L21 Theatre
+[SHORT DESC]        Revolving Stage
+[DESCRIPTION]       I was helping a group build a new theatre space inside a historic building--the limitation with this being that we could not fix anything to existing supports. One feature the group wanted was a revolving stage--the video below shows progress as this feature was under construction.
+[TAGS]              Stagecraft, Carpentry
+[LINK]              <a href="https://www.facebook.com/gavin.fielder/media_set?set=a.1015904657067&type=3">See Pictures on Facebook</a>
+[DATE]              Aug 2009
+
+[TITLE]             Little Shop of Horrors
+[SHORT DESC]        Set Design, Little Shop of Horrors
+[DESCRIPTION]       Set design and construction for Little Shop of Horrors, done for Cerro Coso College Theater. Also made reclining dentist's chair and onstage lighting systems, and did all set painting.
+[GALLERY]           https://i.imgur.com/UPEz0X8.jpg
+[TAGS]              Stagecraft, Carpentry
+[LINK]              <a href="https://www.facebook.com/gavin.fielder/media_set?set=a.1015904657067&type=3">See Pictures on Facebook</a>
+[DATE]              Spring 2009
+
+[TITLE]             Common Display System
+[SHORT DESC]        Software Help Database
+[DESCRIPTION]       Software help files for Common Display System, a new data processing software for weapon testing applications at China Lake Naval Air Weapons Station. 
+[TAGS]              Technical Writing
+[DATE]              2007-2008
+
+[TITLE]             KPAC001
+[SHORT DESC]        Theatre Complex Design
+[DESCRIPTION]       Drafted an architectural design and 3D model of my dream theatre for fun.
+[GALLERY]           https://i.imgur.com/MfNdxnz.jpg
+[TAGS]              Stagecraft, Architecture
+[LINK]              <a href="https://www.facebook.com/gavin.fielder/media_set?set=a.1060829620163&type=3">See Pictures on Facebook</a>
+[DATE]              2007
+
+[TITLE]             Chasing the Sun
+[SHORT DESC]        Science Fiction Novel
+[DESCRIPTION]       I wrote a book in high school and self-published it in 2008. I took it off the market a few years later after rereading it and not being satisfied with the writing. There are 14 copies in existence. 
+[TAGS]              Novels
+[DATE]              2006-2008
+
