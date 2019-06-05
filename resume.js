@@ -6,7 +6,7 @@
 //   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
 //   Created: 2019/04/14 14:56:01 by gfielder          #+#    #+#             //
-//   Updated: 2019/05/29 18:52:43 by gfielder         ###   ########.fr       //
+//   Updated: 2019/06/04 19:43:06 by gfielder         ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
@@ -39,7 +39,7 @@ $(document).ready(function()
 	$('#tagsel-all').click(ShowAllProjects);
 	$('.project-manual-hide').click(OnProjectHideClick);
 	$('.job-entry-manual-hide').click(OnJobEntryHideClick);
-	$('#variable-intro-selector').change(OnVariableIntroSelect);
+	//$('#variable-intro-selector').change(OnVariableIntroSelect);
 	//Open the Projects Section by default.
 	var proj = $('#projects-section');
 	proj.children("#hidden-inline").html("Click to collapse...");
@@ -147,6 +147,7 @@ function OnJobEntryHideClick(eventObject)
 	$('#job-filter-text').css('display', 'block');
 }
 
+/*
 function HideAllVariableIntros()
 {
 	$('.variable-intro-null').css('display', 'none');
@@ -154,6 +155,7 @@ function HideAllVariableIntros()
 	$('.variable-intro-qa').css('display', 'none');
 	$('.variable-intro-db').css('display', 'none');
 	$('.variable-intro-it').css('display', 'none');
+	$('.variable-intro-anal').css('display', 'none');
 }
 
 function OnVariableIntroSelect(eventObject)
@@ -163,7 +165,7 @@ function OnVariableIntroSelect(eventObject)
 	var cls = ".variable-intro-" + value;
 	$(cls).css('display', 'block');
 }
-
+*/
 
 
 

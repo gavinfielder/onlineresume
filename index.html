@@ -138,51 +138,7 @@
 			</table>
 		</div>
 
-		<div id="variable-intro">
-			<h1 class="variable-intro-null hide-when-print">No Introduction Selected</h1>
-			<h1 class="variable-intro-dev">Software Development</h1>
-			<h1 class="variable-intro-qa">Quality Assurance</h1>
-			<h1 class="variable-intro-db">SQL and Databases</h1>
-			<h1 class="variable-intro-it">IT Support</h1>
-			<h1 class="variable-intro-anal">Data Analysis</h1>
-			<div id="variable-intro-selector-container">
-				<select id="variable-intro-selector">
-					<option value="null">Select job category...</option>
-					<option value="dev">Software Development</option>
-					<option value="qa">Quality Assurance</option>
-					<option value="db">SQL and Databases</option>
-					<option value="it">IT Support</option>
-					<option value="anal">Data Analysis</option>
-				</select>
-			</div>
-			<div id="variable-intro-body">
-				<div class="variable-intro-null hide-when-print">
-					<p>Show information about my interest in a particular job category by selecting an item from the dropdown menu.</p>
-				</div>
-				<div class="variable-intro-dev">
-					<p class="variable-intro-p">As a software developer I am a combination of self-taught, formal education, and unconventional education. I have been programming since I was 16; my first language was VB6 and my second was C++, and I am someone who has always had side projects in one thing or another.</p>
-					<h3>Formal Education related to Software Development</h3>
-					<p class="variable-intro-p">My minor in Computer Science included training in SDLC, design principles, patterns and anti-patterns, TDD, and agile methodology. Within my university, I took part in one agile development team for a potential startup and two independent research projects.</p>
-					<h3>Unconventional Education in Software Development</h3>
-					<p class="variable-intro-p">I am a 42 cadet. 42 is Paris-based nonprofit and I studied at its Silicon Valley campus. 42 is best described as an open coding lab where you pick your own projects, solve your own problems (sometimes individually, sometimes in teams), and all work is peer-reviewed. Most of my recent projects listed on this website were developed at 42. You may read more about 42 at <a href="https://www.42.us.org/program/the-42-program/">www.42.us.org</a></p>
-				</div>
-				<div class="variable-intro-qa">
-					<p class="variable-intro-p">I have a particular interest in software testing and the development of automated testing tools. I am a constant advocate for putting effort into software testing--when I review code, my most frequent question is how they tested it. I enjoy making testing frameworks and environments and making testing easier for others.</p>
-					<p class="variable-intro-p">One recent project that I am proud of is a regression testing tool for one of the gateway projects at 42 that has quickly grown popular enough to be used daily on the Fremont, Paris, and Moscow campuses. See <a href="https://github.com/gavinfielder/pft">PFT</a> on my github or in the list below for more.</p>
-				</div>
-				<div class="variable-intro-db">
-					<p class="variable-intro-p">I frequently use SQL and have incorporated it into many of my projects. I have both formal training in relational database concepts as well as practical experience in implementation and use.</p>
-					<p class="variable-intro-p">I have used Microsoft SQL Server, Oracle, MySQL, and MariaDB within both Windows and Linux environments. I have developed a number of SQL database interfacing applications, some or all of which may be shown in the list below.</p>
-				</div>
-				<div class="variable-intro-it">
-					<p class="variable-intro-p">I worked in IT Support for two years while at University--I have provided a brief description of my specific experience in my prior IT role in the relevant job entry under 'Positions Held'. Much of this resume and portfolio is built with software development in mind, but I would be interested in continuing work in IT Support or Analysis because I appreciate the operations perspective of a high-functioning organization and have a personality that can take pride in being integral to success of my extended team. It is also relevant to DevOps work, which I also have a particular interest in.</p>
-				</div>
-				<div class="variable-intro-anal">
-					<p class="variable-intro-p">My background in both applied math and varied experience in programming and scripting languages, as well as databases and database applications, makes me a unique fit for data analysis. While it's not shown explicitly on this resume, I have 3 years of volunteer experience in data analysis through my junior college's Planning, Research, and Institutional Effectiveness committee, which produced reports and interpreted data for actionable key messages to inform college planning decisions. I volunteered for this committee as a student representative because I enjoyed both having a clear picture of the campus environment, because I believed it was too important to ignore, and I also enjoyed getting to work with the data. I made active contributions and was valued as a committee member during my time there.</p>
-					<p class="variable-intro-p">I am also highly proficient in Excel and have used a majority of its features, including database integration and VBA scripting. Feel free to test me on any Excel feature.</p>
-				</div>
-			</div>
-		</div>
+		<div id="variable-intro"></div>
 
 		<h1>Things I've Made</h1>
 		<div id="current-filter">All Projects, Include Educational</div>
@@ -933,11 +889,11 @@
 
 
 	</div>
+	<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+	<script src="variable_intro.js"></script>
+
 </body>
-
-
-
-
 
 
 
