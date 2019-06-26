@@ -217,6 +217,12 @@
 	/* ************************************
 	 *           Content General          *
 	 * ************************************/
+
+	#javascript-disabled {
+		font-size: 18px;
+		color: #DE6457;
+		font-style: italic;
+	}
 	
 	#content-name-header {
 		font-size: 36px;

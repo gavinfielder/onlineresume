@@ -6,7 +6,7 @@
 //   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
 //   Created: 2019/04/14 14:56:01 by gfielder          #+#    #+#             //
-//   Updated: 2019/06/04 19:43:06 by gfielder         ###   ########.fr       //
+//   Updated: 2019/06/26 15:08:01 by gfielder         ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
@@ -44,6 +44,7 @@ $(document).ready(function()
 	var proj = $('#projects-section');
 	proj.children("#hidden-inline").html("Click to collapse...");
 	proj.children("#expanded").css('display', 'block');
+	$('#javascript-disabled').remove();
 });
 
 function ExpandableClick(eventObject)
@@ -146,26 +147,5 @@ function OnJobEntryHideClick(eventObject)
 	job.css('display', 'none');
 	$('#job-filter-text').css('display', 'block');
 }
-
-/*
-function HideAllVariableIntros()
-{
-	$('.variable-intro-null').css('display', 'none');
-	$('.variable-intro-dev').css('display', 'none');
-	$('.variable-intro-qa').css('display', 'none');
-	$('.variable-intro-db').css('display', 'none');
-	$('.variable-intro-it').css('display', 'none');
-	$('.variable-intro-anal').css('display', 'none');
-}
-
-function OnVariableIntroSelect(eventObject)
-{
-	var value = eventObject.target.value;
-	HideAllVariableIntros();
-	var cls = ".variable-intro-" + value;
-	$(cls).css('display', 'block');
-}
-*/
-
 
 
