@@ -77,13 +77,13 @@ class VariableIntroSection extends React.Component {
 		}
 	}
 	
-	vi_null = React.createElement('div',null,
+	var vi_null = React.createElement('div',null,
 		VI_h1('No Introduction Selected', true),
 		this.VI_select(),
-		VI_p('Show information about my interest in a particular job category by selecting an item from the dropdown menu.')
+		VI_p('Show information about my interest in a particular job category by selecting an item from the dropdown menu.', true)
 	);
 	
-	vi_dev = React.createElement('div',null,
+	var vi_dev = React.createElement('div',null,
 		VI_h1('Software Development'),
 		this.VI_select(),
 		VI_p('As a software developer I am a combination of self-taught, formal education, and unconventional education. I have been programming since I was 16; my first language was VB6 and my second was C++, and I am someone who has always had side projects in one thing or another.'),
@@ -101,7 +101,7 @@ class VariableIntroSection extends React.Component {
 		)
 	);
 	
-	vi_qa = React.createElement('div', null,
+	var vi_qa = React.createElement('div', null,
 		VI_h1('Quality Assurance'),
 		this.VI_select(),
 		VI_p('I have a particular interest in software testing and the development of automated testing tools. I am a constant advocate for putting effort into software testing--when I review code, my most frequent question is how they tested it. I enjoy making testing frameworks and environments and making testing easier for others.'),
@@ -114,20 +114,20 @@ class VariableIntroSection extends React.Component {
 		)
 	);
 	
-	vi_db = React.createElement('div', null,
+	var vi_db = React.createElement('div', null,
 		VI_h1('SQL and Databases'),
 		this.VI_select(),
 		VI_p('I frequently use SQL and have incorporated it into many of my projects. I have both formal training in relational database concepts as well as practical experience in implementation and use.'),
 		VI_p('I have used Microsoft SQL Server, Oracle, MySQL, and MariaDB within both Windows and Linux environments. I have developed a number of SQL database interfacing applications, some or all of which may be shown in the list below.')
 	);
 	
-	vi_it = React.createElement('div', null,
+	var vi_it = React.createElement('div', null,
 		VI_h1('IT Support'),
 		this.VI_select(),
 		VI_p('I worked in IT Support for two years while at University--I have provided a brief description of my specific experience in my prior IT role in the relevant job entry under \'Positions Held\'. Much of this resume and portfolio is built with software development in mind, but I would be interested in continuing work in IT Support or Analysis because I appreciate the operations perspective of a high-functioning organization and have a personality that can take pride in being integral to success of my extended team. It is also relevant to DevOps work, which I also have a particular interest in.')
 	);
 	
-	vi_anal = React.createElement('div', null,
+	var vi_anal = React.createElement('div', null,
 		VI_h1('Data Analysis'),
 		this.VI_select(),
 		VI_p("My background in both applied math and varied experience in programming and scripting languages, as well as databases and database applications, makes me a unique fit for data analysis. While it's not shown explicitly on this resume, I have 3 years of volunteer experience in data analysis through my junior college's Planning, Research, and Institutional Effectiveness committee, which produced reports and interpreted data for actionable key messages to inform college planning decisions. I volunteered for this committee as a student representative because I enjoyed both having a clear picture of the campus environment, because I believed it was too important to ignore, and I also enjoyed getting to work with the data. I made active contributions and was valued as a committee member during my time there."),
