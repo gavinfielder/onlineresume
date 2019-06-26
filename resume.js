@@ -6,7 +6,7 @@
 //   By: gfielder <marvin@42.fr>                    +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
 //   Created: 2019/04/14 14:56:01 by gfielder          #+#    #+#             //
-//   Updated: 2019/06/26 15:08:01 by gfielder         ###   ########.fr       //
+//   Updated: 2019/06/26 15:15:59 by gfielder         ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
@@ -109,10 +109,10 @@ function UpdateCurrentFilterText()
 
 function OnTagSelect(eventObject)
 {
-	ShowProjectsWithTag($(eventObject.target).html());
+	ShowProjectsWithTag($(eventObject.target).html(), eventObject.shiftKey);
 }
 
-function ShowProjectsWithTag(tag)
+function ShowProjectsWithTag(tag, addOnly = false)
 {
 	current_filter = tag;
 	var projs = $(".project");
@@ -126,10 +126,10 @@ function ShowProjectsWithTag(tag)
 			else
 				$(element).css('display', 'block');
 		}
-		else
+		else if (!addOnly)
 			$(element).css('display', 'none');
 	});
-	custom_filter = false;
+	custom_filter = addOnly;
 	UpdateCurrentFilterText();
 }
 
